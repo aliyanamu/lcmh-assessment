@@ -1,4 +1,4 @@
-# EPD Extraction Schema — v1.1
+# EPD Extraction Schema — v1.2
 
 One JSON file per EPD PDF in `data/<epd_id>.json`. This is the source of truth for the shape; the validator (`scripts/validate.mjs`) enforces the machine-checkable parts.
 

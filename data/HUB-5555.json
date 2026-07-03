@@ -53,6 +53,7 @@
     "A4-A5 (transport/installation) and B1-B7 (use stage) are explicitly ND per the system-boundary table (p5) and narrative text ('Modules not declared', p11) — narrower scope than some EPDs (no construction or use stage).",
     "Site grouping (p6): product declared as a single result averaged across 8 Melbourne-metro sites — Deer Park, Tullamarine, Somerton, Sunbury, Wollert, Melton, West Melbourne, and West Melbourne (wet); the last two are distinct plants (dry vs wet batching) both named 'West Melbourne' in the source, kept verbatim as separate list entries. Place of production (p3, general info) is given simply as 'Melbourne'.",
     "A separate EN 15804+A1/CML GWP table exists (p17, A1-A3 = 220) → captured as gwp_a1a3_alt for the 'not comparable' warning. A further 'GWP-GHG' indicator table (p18, A1-A3 = 220) also exists but per schema is never used for gwp_a1a3_alt.",
-    "Compressive strength standard cited in source only as 'AS 1379' (no year/edition given, unlike some sibling EPDs that cite 'AS 1379-2007')."
+    "Compressive strength standard cited in source only as 'AS 1379' (no year/edition given, unlike some sibling EPDs that cite 'AS 1379-2007').",
+    "Provenance span: gwp_total.source_page=13 is where the EN 15804+A2 core-impact table begins (A1-A3 columns); the C1-C4 and D columns of that same table continue on p14 (verified). A per-block deep-link opens p13 — the end-of-life modules sit one page further."
   ]
 }

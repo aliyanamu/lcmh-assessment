@@ -24,6 +24,9 @@ function checkProvenance(o, errs, ctx) {
     gwp_a1a3_split: o.gwp_a1a3_split, gwp_a1a3_alt: o.gwp_a1a3_alt };
   for (const [name, b] of Object.entries(blocks))
     if (b && !num(b.source_page)) errs.push(`${ctx}${name}: missing/invalid source_page`);
+  // summary_extras children each carry their own {value, source_page} — schema.md: every figure block has provenance.
+  for (const [name, b] of Object.entries(o.summary_extras ?? {}))
+    if (b && !num(b.source_page)) errs.push(`${ctx}summary_extras.${name}: missing/invalid source_page`);
 }
 
 // Validate one product-like object (a single-product record, or one entry of products[]).
@@ -42,6 +45,9 @@ function checkProduct(o, errs, flags, ctx) {
     const ok = num(v) || v === 'ND' || (allowIncl && v === 'incl');
     if (!ok) errs.push(`${ctx}module ${k}: must be number|"ND"${allowIncl ? '|"incl"' : ''}, got ${JSON.stringify(v)}`);
   }
+  // Closed vocabulary: a typo'd key ('C5', 'b1', trailing space) would hide a carbon figure from validator and app.
+  for (const k of Object.keys(m))
+    if (!MODULES.includes(k)) errs.push(`${ctx}unknown module key ${JSON.stringify(k)} — not in EN 15804 A1..D vocabulary (typo?)`);
   if (num(m.A1) && num(m.A2) && num(m.A3) && num(m.A1A3)) {
     const sum = m.A1 + m.A2 + m.A3;
     if (!withinTol(sum, m.A1A3, 0.015, 0.05)) flags.push(`${ctx}A1+A2+A3=${sum.toFixed(2)} vs A1A3=${m.A1A3} (>1.5%)`);

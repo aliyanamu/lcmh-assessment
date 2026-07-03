@@ -23,7 +23,7 @@ These are honesty requirements, not style preferences:
 
 - One JSON per EPD PDF: `data/<epd_id>.json` (`HUB-<n>` / `IES-<n>`, registration number verbatim — no invented padding). Map in `data/README.md`.
 - Multi-product / catalog EPDs use a top-level `products[]` array (see `schema.md`). Part 2 must badge them — they share a representative end-of-life figure and plant location, so they're less directly comparable.
-- Schema: `data/schema.md` (v1.1). Validate: `node scripts/validate.mjs`.
+- Schema: `data/schema.md` (v1.2). Validate: `node scripts/validate.mjs`.
 - Source PDFs live in `source-pdfs/` — **committed** (they are the provenance backbone).
 - `source_page` = 1-based **PDF page index** (not printed page number). App deep-links `source-pdfs/<file>#page=N`.
 - Never silently correct a source value — record ambiguities/typos in the record's `notes[]`.

@@ -53,6 +53,7 @@
     "Source typo: p1 footer renders the product name as 'N40/20/Xencrete' (slash) vs 'N40/20 Xencrete' used everywhere else (title, p2 product name field, headers).",
     "p2 'Address' field reads 'Entire – VWA Plant' rather than a street address (cf. HUB-5943 which gives a full street address) — recorded as-is, not used elsewhere in this record.",
     "B1–B7 all ND (use stage not assessed). Module D is the recycling credit (−11.9) and is never summed into an A–C total.",
-    "gwp_a1a3_alt (+A1/CML = 273, p10) retained only to drive a 'not comparable' warning against +A2 figures; both round to the same displayed total (273) though underlying A2/A3 sub-values differ slightly."
+    "gwp_a1a3_alt (+A1/CML = 273, p10) retained only to drive a 'not comparable' warning against +A2 figures; both round to the same displayed total (273) though underlying A2/A3 sub-values differ slightly.",
+    "location.source_page=2 carries the place of production (Cameron Park address) and country; the second plant site 'Singleton' is named on p3 ('concrete plants in Cameron Park and Singleton'). sites[] therefore draws from p2-3."
   ]
 }

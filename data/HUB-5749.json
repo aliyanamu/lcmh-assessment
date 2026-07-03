@@ -52,6 +52,7 @@
     "Source defect (p5): the A5 installation-scenario narrative reads 'A production loss of  % at installation is assumed (A5)' — the numeric value was dropped from the template; the Allocation section (p4) separately states 'A5, 3% waste', suggesting the intended figure is 3%. Does not affect any GWP figure captured here.",
     "B1–B7 all ND (use stage not assessed). Module D is the recycling credit (−11.8) and is never summed into an A–C total.",
     "gwp_a1a3_alt (+A1/CML = 208) retained only to drive a 'not comparable' warning against +A2 figures.",
-    "Same manufacturer/template family as EPD Hub HUB-5943 (Entire Concrete, Cameron Park + Singleton sites); PCR, program operator, and lca_tool strings are identical across the two EPDs."
+    "Same manufacturer/template family as EPD Hub HUB-5943 (Entire Concrete, Cameron Park + Singleton sites); PCR, program operator, and lca_tool strings are identical across the two EPDs.",
+    "location.source_page=2 carries the place of production (Cameron Park address) and country; the second plant site 'Singleton' is named on p3 ('concrete plants in Cameron Park and Singleton'). sites[] therefore draws from p2-3."
   ]
 }

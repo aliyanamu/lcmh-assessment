@@ -51,6 +51,7 @@
   "notes": [
     "Source typo: the A5 installation/transport scenario header reads 'N20/20 Xencrete' vs 'N50/20' used everywhere else — strength cross-checked against product name and description (50 MPa).",
     "B1–B7 all ND (use stage not assessed). Module D is the recycling credit (−11.7) and is never summed into an A–C total.",
-    "gwp_a1a3_alt (+A1/CML = 309) retained only to drive a 'not comparable' warning against +A2 figures."
+    "gwp_a1a3_alt (+A1/CML = 309) retained only to drive a 'not comparable' warning against +A2 figures.",
+    "location.source_page=2 carries the place of production (Cameron Park address) and country; the second plant site 'Singleton' is named on p3 ('concrete plants in Cameron Park and Singleton'). sites[] therefore draws from p2-3."
   ]
 }

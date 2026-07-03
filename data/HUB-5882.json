@@ -55,6 +55,7 @@
     "EPD verifier named is Vera Durão, acting for EPD Hub Limited (p3); the Internal/External verification checkboxes on p3 render without a visible check mark in extracted text, so 'external' is inferred from the named third-party verifier (same verifier as EPD Hub example HUB-5943).",
     "location.sites (8 sites) sourced from the site-grouping paragraph on p6, which also confirms the state as Victoria; place of production ('Melbourne') and country context appear separately on p3's general information section.",
     "Product is a single declared result averaged by volume across 8 grouped Melbourne-metro sites (Deer Park, Tullamarine, Somerton, Sunbury, Wollert, Melton, West Melbourne, West Melbourne (wet)); reported GWP variation across sites for A1-A3 is -0.4% to +1.3% (p6).",
-    "EN 15804+A1/CML table (p17) gives Global Warming Pot. A1-A3 = 297, effectively identical to the +A2 figure — captured as gwp_a1a3_alt to power the 'not comparable' methodology warning. A separate GWP-GHG table (p18) also = 297 but per schema is never used for gwp_a1a3_alt."
+    "EN 15804+A1/CML table (p17) gives Global Warming Pot. A1-A3 = 297, effectively identical to the +A2 figure — captured as gwp_a1a3_alt to power the 'not comparable' methodology warning. A separate GWP-GHG table (p18) also = 297 but per schema is never used for gwp_a1a3_alt.",
+    "Provenance span: gwp_total.source_page=13 is where the EN 15804+A2 core-impact table begins (A1-A3 columns); the C1-C4 and D columns of that same table continue on p14 (verified). A per-block deep-link opens p13 — the end-of-life modules sit one page further."
   ]
 }
