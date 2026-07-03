@@ -1,12 +1,14 @@
 ---
 title: "Part 1 — EPD Extraction: schema, /data/*.json, CLAUDE.md, EXTRACTION.md"
 type: feat
-status: active
+status: done
 date: 2026-07-03
 brainstorm: docs/brainstorms/2026-07-03-part1-extraction-brainstorm.md
 ---
 
 # ✨ Part 1 — EPD Extraction
+
+> **✅ Complete (2026-07-03).** All 20 EPDs extracted → `data/*.json`; schema v1.2 locked; `validate.mjs` green (0 errors, 4 expected low-carbon flags); `EXTRACTION.md` + `CLAUDE.md` shipped. Landed in commits `10e3c00` (extraction) + `f894478` (review fixes). Independently verified by a 23-agent per-EPD audit — 0 wrong carbon numbers across 95 products (`docs/reviews/2026-07-03-part1-extraction-review.md`). Every box below is done; deferred items are Part-2 design decisions, tracked in the review.
 
 ## Overview
 
@@ -121,33 +123,33 @@ These are the real failure modes the validation batch must probe — each has a 
 ## Implementation — Todo List
 
 ### Phase 0 — Scaffold (schema + harness)
-- [ ] Write `data/schema.md` — field-by-field spec + the HUB-5943 example + the invariants list.
-- [ ] Draft `CLAUDE.md` skeleton — project overview, the honesty invariants as rules, schema pointer, `/data` convention, `source_page` semantics, Part 2 stack (Next.js + TS, JSON imported directly, no DB). *(Finalized in Phase 4.)*
-- [ ] Spec `scripts/validate.mjs` (see Verification) — required fields present, `source_page` on every figure, module values ∈ `number | "ND"`, consistency + sanity checks; prints a per-file pass/flag table.
+- [x] Write `data/schema.md` — field-by-field spec + the HUB-5943 example + the invariants list.
+- [x] Draft `CLAUDE.md` skeleton — project overview, the honesty invariants as rules, schema pointer, `/data` convention, `source_page` semantics, Part 2 stack (Next.js + TS, JSON imported directly, no DB). *(Finalized in Phase 4.)*
+- [x] Spec `scripts/validate.mjs` (see Verification) — required fields present, `source_page` on every figure, module values ∈ `number | "ND"`, consistency + sanity checks; prints a per-file pass/flag table.
 
 ### Phase 1 — Schema validation batch (GATE — do not batch until this passes)
-- [ ] Extract **HUB-5943** → `data/HUB-5943.json` (already parsed this session; formalize it).
-- [ ] Extract **2 diverse EPD International/IES** — pick a Holcim EcoPact (multi-product probe) + Hallett or Greencrete (different template/tool). Read the PDFs page-by-page.
-- [ ] Run `validate.mjs` on the 3.
-- [ ] Diff reality vs schema v1: multi-product? +A1-only? aggregated modules? new fields (exposure class, GTIN, EPD registration no.)? unit differences?
-- [ ] **Revise schema v1 → lock v2** in `data/schema.md`. Record what changed and why (feeds EXTRACTION.md "research/process").
+- [x] Extract **HUB-5943** → `data/HUB-5943.json` (already parsed this session; formalize it).
+- [x] Extract **2 diverse EPD International/IES** — pick a Holcim EcoPact (multi-product probe) + Hallett or Greencrete (different template/tool). Read the PDFs page-by-page.
+- [x] Run `validate.mjs` on the 3.
+- [x] Diff reality vs schema v1: multi-product? +A1-only? aggregated modules? new fields (exposure class, GTIN, EPD registration no.)? unit differences?
+- [x] **Revise schema v1 → lock v2** in `data/schema.md`. Record what changed and why (feeds EXTRACTION.md "research/process").
 
 ### Phase 2 — Batch extract remaining 17
-- [ ] Extract the other 9 EPD Hub + 8 IES → `data/<epd_id>.json`, conforming to locked schema.
-- [ ] Every carbon figure gets `source_page`; every not-declared module gets `"ND"`.
+- [x] Extract the other 9 EPD Hub + 8 IES → `data/<epd_id>.json`, conforming to locked schema.
+- [x] Every carbon figure gets `source_page`; every not-declared module gets `"ND"`.
 
 ### Phase 3 — Verify all 20
-- [ ] Run `validate.mjs` across all 20; every file passes or carries a `notes` entry explaining the flag (outliers explained, never silently corrected).
-- [ ] Manual spot-check per EPD: A1-A3 GWP-total + one C-module + D vs the source PDF page. (N=20 is small enough to eyeball every headline.)
-- [ ] Cross-check summary-box GWP == detailed-table GWP where both exist.
+- [x] Run `validate.mjs` across all 20; every file passes or carries a `notes` entry explaining the flag (outliers explained, never silently corrected).
+- [x] Manual spot-check per EPD: A1-A3 GWP-total + one C-module + D vs the source PDF page. (N=20 is small enough to eyeball every headline.)
+- [x] Cross-check summary-box GWP == detailed-table GWP where both exist.
 
 ### Phase 4 — Docs
-- [ ] Write `EXTRACTION.md` (~400 words) — strategy / model+architecture / accuracy / research+process. Written last so it reflects what actually surprised us across 20.
-- [ ] Finalize `CLAUDE.md` with the locked schema + any conventions discovered.
+- [x] Write `EXTRACTION.md` (~400 words) — strategy / model+architecture / accuracy / research+process. Written last so it reflects what actually surprised us across 20.
+- [x] Finalize `CLAUDE.md` with the locked schema + any conventions discovered.
 
 ### Phase 5 — Wrap
-- [ ] `.gitignore` (node_modules if any), confirm `source-pdfs/` committed.
-- [ ] Commit **only when the user asks**, on the current branch.
+- [x] `.gitignore` (node_modules if any), confirm `source-pdfs/` committed.
+- [x] Commit **only when the user asks**, on the current branch.
 
 ## Verification & Accuracy (`scripts/validate.mjs`)
 
@@ -165,13 +167,13 @@ A ~50-line Node script (matches Part 2's stack — no Python dep). Loads `data/*
 
 ## Acceptance Criteria
 
-- [ ] 20 × `data/<epd_id>.json`, each conforming to the locked schema.
-- [ ] **Every carbon figure carries `source_page`; every record carries `source.file`.** No exceptions.
-- [ ] Not-declared modules are `"ND"`, never `0`/`null`; `D` never folded into an A–C total.
-- [ ] `validate.mjs` passes on all 20, or each flag is explained in that file's `notes`.
-- [ ] `EXTRACTION.md` ≤ ~400 words, covering the four required areas.
-- [ ] `CLAUDE.md` encodes provenance, ND≠0, D-separate, +A1≠+A2, normalize-by-declared-unit as repo rules.
-- [ ] Multi-product handling decided and applied consistently.
+- [x] 20 × `data/<epd_id>.json`, each conforming to the locked schema.
+- [x] **Every carbon figure carries `source_page`; every record carries `source.file`.** No exceptions.
+- [x] Not-declared modules are `"ND"`, never `0`/`null`; `D` never folded into an A–C total.
+- [x] `validate.mjs` passes on all 20, or each flag is explained in that file's `notes`.
+- [x] `EXTRACTION.md` ≤ ~400 words, covering the four required areas.
+- [x] `CLAUDE.md` encodes provenance, ND≠0, D-separate, +A1≠+A2, normalize-by-declared-unit as repo rules.
+- [x] Multi-product handling decided and applied consistently.
 
 ## Risks & Open Decisions
 
