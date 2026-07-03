@@ -1,0 +1,27 @@
+{
+  "name": "lcmh-web",
+  "version": "1.0.0",
+  "description": "Concrete EPD comparison app — makes embodied-carbon figures comparable for non-expert builders, with provenance to every source PDF. Reads ../data/*.json (Part 1).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node ../scripts/validate.mjs",
+    "predev": "node ../scripts/validate.mjs && node scripts/copy-pdfs.mjs",
+    "dev": "next dev",
+    "prebuild": "node ../scripts/validate.mjs && node scripts/copy-pdfs.mjs",
+    "build": "next build",
+    "start": "next start",
+    "test": "node lib/lifecycle.test.ts"
+  },
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}

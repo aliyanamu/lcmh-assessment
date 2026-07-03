@@ -20,7 +20,7 @@ tmp/
 temp/
 *.tmp
 
-# Node / Next.js (Part 2)
+# Node / Next.js (Part 2 — app lives in web/)
 node_modules/
 .next/
 out/
@@ -28,6 +28,9 @@ build/
 dist/
 *.tsbuildinfo
 next-env.d.ts
+
+# PDFs copied into the app at build (source of truth stays in root source-pdfs/)
+web/public/source-pdfs/
 
 # Package-manager logs
 npm-debug.log*
