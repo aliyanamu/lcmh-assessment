@@ -1,0 +1,4332 @@
+{
+  "epd_id": "IES-0009353",
+  "product_name": "Ready Mix Concrete Products (multiple mix designs \u2014 see products[])",
+  "manufacturer": "Hallett Group Pty Ltd",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2026-05-04",
+  "valid_until": "2028-07-31",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products, version 1.11 (2021-02-05, valid until 2024-12-20); c-PCR-003 Concrete and Concrete Elements / EN 16757 (2019-12-20, valid until 2024-12-20)",
+  "lca_tool": "Sphera LCA for Experts (Sphera LCI Database 2022)",
+  "verification": {
+    "type": "process-certification",
+    "verifier": "start2see Pty Ltd (Rob Rouwette), approved by EPD Australasia and The International EPD System"
+  },
+  "scope": "Cradle to gate (A1-A3) with modules C1-C4 and D; A4-A5 and B1-B7 not declared (not modelled \u2014 best considered at building/structure level)",
+  "source": {
+    "file": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf"
+  },
+  "products": [
+    {
+      "product_name": "S1020PLC1",
+      "compressive_strength": {
+        "raw_class": "S1020",
+        "value_mpa": 10,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2290,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 139,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 137,
+        "biogenic": 1.7,
+        "luluc": 0.00927,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S1520PLC1120",
+      "compressive_strength": {
+        "raw_class": "S1520",
+        "value_mpa": 15,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2030,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 155,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 154,
+        "biogenic": 1.81,
+        "luluc": 0.0104,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S1520PLC2120",
+      "compressive_strength": {
+        "raw_class": "S1520",
+        "value_mpa": 15,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2090,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 106,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 105,
+        "biogenic": 1.45,
+        "luluc": 0.00778,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2010P",
+      "compressive_strength": {
+        "raw_class": "N2010P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2290,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 193,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 190,
+        "biogenic": 3.14,
+        "luluc": 0.00952,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2010P100",
+      "compressive_strength": {
+        "raw_class": "N2010P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2280,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 199,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 196,
+        "biogenic": 3.22,
+        "luluc": 0.00987,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2020P100",
+      "compressive_strength": {
+        "raw_class": "N2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2290,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 230,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 226,
+        "biogenic": 3.64,
+        "luluc": 0.0108,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2020P120",
+      "compressive_strength": {
+        "raw_class": "N2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2290,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 238,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 234,
+        "biogenic": 3.75,
+        "luluc": 0.0111,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2020PRef",
+      "compressive_strength": {
+        "raw_class": "N2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2308,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 266,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 263,
+        "biogenic": 2.87,
+        "luluc": 0.0171,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2020PF30",
+      "compressive_strength": {
+        "raw_class": "N2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2308,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 195,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 192,
+        "biogenic": 2.4,
+        "luluc": 0.0124,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2020PS30",
+      "compressive_strength": {
+        "raw_class": "N2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2297,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 198,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 195,
+        "biogenic": 2.39,
+        "luluc": 0.0131,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2020PS50",
+      "compressive_strength": {
+        "raw_class": "N2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2293,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 154,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 151,
+        "biogenic": 2.06,
+        "luluc": 0.0108,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S2020P200",
+      "compressive_strength": {
+        "raw_class": "S2020P",
+        "value_mpa": 20,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2280,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 232,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 228,
+        "biogenic": 3.58,
+        "luluc": 0.0114,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2520PRef",
+      "compressive_strength": {
+        "raw_class": "N2520P",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2312,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 291,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 288,
+        "biogenic": 3.06,
+        "luluc": 0.0188,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2520PF30",
+      "compressive_strength": {
+        "raw_class": "N2520P",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2310,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 213,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 210,
+        "biogenic": 2.53,
+        "luluc": 0.0135,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2520PT50",
+      "compressive_strength": {
+        "raw_class": "N2520P",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2311,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 163,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 160,
+        "biogenic": 2.17,
+        "luluc": 0.0106,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2520PS30",
+      "compressive_strength": {
+        "raw_class": "N2520P",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2301,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 216,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 214,
+        "biogenic": 2.52,
+        "luluc": 0.0145,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N2520PS50",
+      "compressive_strength": {
+        "raw_class": "N2520P",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2296,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 168,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 165,
+        "biogenic": 2.15,
+        "luluc": 0.0119,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S2520PLC1",
+      "compressive_strength": {
+        "raw_class": "S2520",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2270,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 200,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 198,
+        "biogenic": 2.13,
+        "luluc": 0.0136,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S2520E1100",
+      "compressive_strength": {
+        "raw_class": "S2520",
+        "value_mpa": 25,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2270,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 187,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 184,
+        "biogenic": 2.97,
+        "luluc": 0.01,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N3220PRef",
+      "compressive_strength": {
+        "raw_class": "N3220P",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2351,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 334,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 330,
+        "biogenic": 3.39,
+        "luluc": 0.0216,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N3220PF30",
+      "compressive_strength": {
+        "raw_class": "N3220P",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2347,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 242,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 240,
+        "biogenic": 2.77,
+        "luluc": 0.0155,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N3220PT50",
+      "compressive_strength": {
+        "raw_class": "N3220P",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2346,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 184,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 182,
+        "biogenic": 2.35,
+        "luluc": 0.0121,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N3220PS30",
+      "compressive_strength": {
+        "raw_class": "N3220P",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2338,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 246,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 244,
+        "biogenic": 2.76,
+        "luluc": 0.0165,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N3220PS50",
+      "compressive_strength": {
+        "raw_class": "N3220P",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2332,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 190,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 188,
+        "biogenic": 2.34,
+        "luluc": 0.0136,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S3220PLC2",
+      "compressive_strength": {
+        "raw_class": "S3220",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2300,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 219,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 216,
+        "biogenic": 2.27,
+        "luluc": 0.0153,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S3220LSLC2",
+      "compressive_strength": {
+        "raw_class": "S3220",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2300,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 153,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 151,
+        "biogenic": 1.79,
+        "luluc": 0.0117,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S3220PLC2XYP",
+      "compressive_strength": {
+        "raw_class": "S3220",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2340,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 160,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 158,
+        "biogenic": 1.86,
+        "luluc": 0.0118,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S3220PLC2120",
+      "compressive_strength": {
+        "raw_class": "S3220",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2230,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 216,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 214,
+        "biogenic": 2.24,
+        "luluc": 0.0152,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S3220E1100",
+      "compressive_strength": {
+        "raw_class": "S3220",
+        "value_mpa": 32,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2320,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 231,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 228,
+        "biogenic": 3.54,
+        "luluc": 0.0122,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N4020PRef",
+      "compressive_strength": {
+        "raw_class": "N4020P",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2356,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 402,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 398,
+        "biogenic": 3.87,
+        "luluc": 0.0261,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N4020PF30",
+      "compressive_strength": {
+        "raw_class": "N4020P",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2347,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 290,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 287,
+        "biogenic": 3.12,
+        "luluc": 0.0186,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N4020PT50",
+      "compressive_strength": {
+        "raw_class": "N4020P",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2343,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 218,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 216,
+        "biogenic": 2.61,
+        "luluc": 0.0144,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N4020PS30",
+      "compressive_strength": {
+        "raw_class": "N4020P",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2339,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 294,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 291,
+        "biogenic": 3.11,
+        "luluc": 0.0198,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N4020PS50",
+      "compressive_strength": {
+        "raw_class": "N4020P",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2332,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 225,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 222,
+        "biogenic": 2.59,
+        "luluc": 0.0161,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S4010SCPH",
+      "compressive_strength": {
+        "raw_class": "S4010",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2390,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 305,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 301,
+        "biogenic": 4.47,
+        "luluc": 0.0139,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S4020E1100",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2340,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 267,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 263,
+        "biogenic": 3.91,
+        "luluc": 0.0145,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E1150H",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2310,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 270,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 266,
+        "biogenic": 4.05,
+        "luluc": 0.0127,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E2",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 227,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 224,
+        "biogenic": 3.34,
+        "luluc": 0.0135,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E2100",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2330,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 215,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 212,
+        "biogenic": 3.19,
+        "luluc": 0.0126,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E2120",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2360,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 231,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 228,
+        "biogenic": 3.39,
+        "luluc": 0.0134,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E2150",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 229,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 225,
+        "biogenic": 3.36,
+        "luluc": 0.0135,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E2150F",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 226,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 223,
+        "biogenic": 3.38,
+        "luluc": 0.0123,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E2200",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 229,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 226,
+        "biogenic": 3.37,
+        "luluc": 0.0135,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E3150",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2360,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 175,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 172,
+        "biogenic": 2.67,
+        "luluc": 0.0103,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020E3150F",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2340,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 173,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 170,
+        "biogenic": 2.64,
+        "luluc": 0.0103,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020PTLC2",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2350,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 188,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 186,
+        "biogenic": 1.99,
+        "luluc": 0.0147,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020COLLC1",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 290,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 287,
+        "biogenic": 2.74,
+        "luluc": 0.0197,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020COLLC2",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 198,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 196,
+        "biogenic": 2.05,
+        "luluc": 0.0151,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020PLC1120",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2430,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 287,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 285,
+        "biogenic": 2.74,
+        "luluc": 0.0199,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020PLC2120",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2250,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 187,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 185,
+        "biogenic": 1.99,
+        "luluc": 0.0146,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S4020PLC2XYP",
+      "compressive_strength": {
+        "raw_class": "S4020",
+        "value_mpa": 40,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2260,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 207,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 205,
+        "biogenic": 2.25,
+        "luluc": 0.0146,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "N5020PRef",
+      "compressive_strength": {
+        "raw_class": "N5020P",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2367,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 495,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 490,
+        "biogenic": 4.47,
+        "luluc": 0.0324,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N5020PF30",
+      "compressive_strength": {
+        "raw_class": "N5020P",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2353,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 355,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 352,
+        "biogenic": 3.54,
+        "luluc": 0.023,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N5020PT50",
+      "compressive_strength": {
+        "raw_class": "N5020P",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2348,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 265,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 262,
+        "biogenic": 2.89,
+        "luluc": 0.0175,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N5020PS30",
+      "compressive_strength": {
+        "raw_class": "N5020P",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2345,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 360,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 356,
+        "biogenic": 3.52,
+        "luluc": 0.0242,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "N5020PS50",
+      "compressive_strength": {
+        "raw_class": "N5020P",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne, SA, Australia",
+        "sites": [
+          "Dry Creek",
+          "Elizabeth",
+          "Mile End",
+          "McLaren Vale",
+          "Osborne"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2336,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 19,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 273,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 270,
+        "biogenic": 2.87,
+        "luluc": 0.0196,
+        "source_page": 19
+      }
+    },
+    {
+      "product_name": "S5010DW500D",
+      "compressive_strength": {
+        "raw_class": "S5010",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2250,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 252,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 248,
+        "biogenic": 3.61,
+        "luluc": 0.0133,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S5010DW500D3",
+      "compressive_strength": {
+        "raw_class": "S5010",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2250,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 253,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 250,
+        "biogenic": 3.63,
+        "luluc": 0.0133,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S5010E1150H",
+      "compressive_strength": {
+        "raw_class": "S5010",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2410,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 294,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 290,
+        "biogenic": 4.44,
+        "luluc": 0.0136,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S5010SCPLC2",
+      "compressive_strength": {
+        "raw_class": "S5010",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2580,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 297,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 294,
+        "biogenic": 2.67,
+        "luluc": 0.0217,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S5010SCPH",
+      "compressive_strength": {
+        "raw_class": "S5010",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2390,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 306,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 301,
+        "biogenic": 4.51,
+        "luluc": 0.0139,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S5020E1200",
+      "compressive_strength": {
+        "raw_class": "S5020",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2300,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 292,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 288,
+        "biogenic": 4.18,
+        "luluc": 0.0157,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S5020METALDIT",
+      "compressive_strength": {
+        "raw_class": "S5020",
+        "value_mpa": 50,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2310,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 288,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 284,
+        "biogenic": 4.31,
+        "luluc": 0.0135,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S6510SCPLC2",
+      "compressive_strength": {
+        "raw_class": "S6510",
+        "value_mpa": 65,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2410,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 245,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 242,
+        "biogenic": 2.31,
+        "luluc": 0.0185,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S6510SCPEC2",
+      "compressive_strength": {
+        "raw_class": "S6510",
+        "value_mpa": 65,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2400,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 307,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 304,
+        "biogenic": 2.8,
+        "luluc": 0.0203,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S6520PLC2120",
+      "compressive_strength": {
+        "raw_class": "S6520",
+        "value_mpa": 65,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2480,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 257,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 255,
+        "biogenic": 2.4,
+        "luluc": 0.0204,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S6520E2150",
+      "compressive_strength": {
+        "raw_class": "S6520",
+        "value_mpa": 65,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2350,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 326,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 322,
+        "biogenic": 4.5,
+        "luluc": 0.0192,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S8010COLSCLC2",
+      "compressive_strength": {
+        "raw_class": "S8010",
+        "value_mpa": 80,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2500,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 282,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 279,
+        "biogenic": 2.45,
+        "luluc": 0.0218,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "S8010SCPEC2",
+      "compressive_strength": {
+        "raw_class": "S8010",
+        "value_mpa": 80,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, Dry Creek, SA, Australia",
+        "sites": [
+          "Mile End",
+          "Dry Creek"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2420,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 339,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 336,
+        "biogenic": 3.02,
+        "luluc": 0.0225,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "CLSMPEB",
+      "compressive_strength": {
+        "raw_class": "CLSM",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2020,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 88.9,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 87.3,
+        "biogenic": 1.58,
+        "luluc": 0.00407,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "CLSMSB",
+      "compressive_strength": {
+        "raw_class": "CLSM",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2000,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 142,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 139,
+        "biogenic": 2.5,
+        "luluc": 0.00759,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "CLSM3",
+      "compressive_strength": {
+        "raw_class": "CLSM",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2010,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 72.7,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 71.3,
+        "biogenic": 1.37,
+        "luluc": 0.00321,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "CLSM4",
+      "compressive_strength": {
+        "raw_class": "CLSM",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2000,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 85.1,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 83.6,
+        "biogenic": 1.53,
+        "luluc": 0.0038,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "CLSM5",
+      "compressive_strength": {
+        "raw_class": "CLSM",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2000,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 97.5,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 95.9,
+        "biogenic": 1.69,
+        "luluc": 0.0044,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "CLSM15",
+      "compressive_strength": {
+        "raw_class": "CLSM",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 2000,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 167,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 164,
+        "biogenic": 2.58,
+        "luluc": 0.00743,
+        "source_page": 20
+      }
+    },
+    {
+      "product_name": "NOFINES",
+      "compressive_strength": {
+        "raw_class": "NOFINES",
+        "value_mpa": null,
+        "test_age_days": null,
+        "standard": "AS 1379 (inferred from S-/N- mix-code prefixes; not explicitly cited in this document)",
+        "source_page": 5
+      },
+      "location": {
+        "production": "Mile End, SA, Australia",
+        "sites": [
+          "Mile End"
+        ],
+        "country": "AU",
+        "source_page": 5
+      },
+      "declared_unit": {
+        "unit": "1 m3",
+        "mass_kg": 1790,
+        "source_page": 5
+      },
+      "gwp_total": {
+        "methodology": "EN 15804+A2",
+        "unit": "kg CO2e",
+        "per": "1 m3",
+        "source_page": 20,
+        "modules": {
+          "A1": "incl",
+          "A2": "incl",
+          "A3": "incl",
+          "A1A3": 167,
+          "A4": "ND",
+          "A5": "ND",
+          "B1": "ND",
+          "B2": "ND",
+          "B3": "ND",
+          "B4": "ND",
+          "B5": "ND",
+          "B6": "ND",
+          "B7": "ND",
+          "C1": 14.8,
+          "C2": 5.96,
+          "C3": 5.02,
+          "C4": 8.45,
+          "D": -11.6
+        }
+      },
+      "gwp_a1a3_split": {
+        "fossil": 165,
+        "biogenic": 2.64,
+        "luluc": 0.00883,
+        "source_page": 20
+      }
+    }
+  ],
+  "notes": [
+    "MULTI-PRODUCT / CATALOG-SCALE EPD (flagging prominently, per instructions): Table 1 (p.5) plus the version-history log (p.71) jointly declare 76 distinct ready-mix concrete designs (name = family+subcode, e.g. 'N2020PRef', 'S1020PLC1'), each manufactured at 1, 2, or 5 of Hallett's five SA batching plants (Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne) \u2014 footnote p.5: 1 plant=Mile End only, 2 plants=Mile End+Dry Creek, 5 plants=all five. This is far larger than the 1-product EPDs used to lock schema v1.1; the 76-entry products[] array below is a best-effort, ask-shaped structure \u2014 please confirm the desired granularity.",
+    "GWP-A1A3 SOURCE CHOICE: every product's A1-A3 GWPt/GWPf/GWPb/GWPluluc in this file is read from the Mile End batch-plant results table (Table 25, PDF pp.19-20) \u2014 the only plant that manufactures all 76 designs, so it is the single consistent source for a complete catalog. The SAME named design manufactured at other plants has its OWN separately declared (similar but not identical) A1-A3 result: the 24 designs shared by all 5 plants also appear in Dry Creek Table 13 (PDF pp.11-12), Elizabeth Table 19 (PDF pp.16-17), McLaren Vale Table 31 (PDF pp.29-31), and Osborne Table 37 (PDF pp.32-33); the further 20 designs shared with Dry Creek also appear in Table 13. Those plant-specific alternates are NOT reproduced per-product here (would be up to 192 total declared A1-A3 results across all plants) \u2014 only Mile End's figures are captured.",
+    "C1-C4 + D (end-of-life) HANDLING: the source gives ONE representative result set for modules C1,C2,C3,C4,D (Table 43, PDF p.35, mix 'N3220P S50', density 2332 kg/m3: GWPt C1=14.8, C2=5.96, C3=5.02, C4=8.45, D=-11.6 kg CO2e/m3) and explicitly instructs (p.35-36, worked example for S5010E1150H) that these be linearly scaled per product by (product density / 2332). This file stores the UNSCALED printed representative figure identically for all 76 products (so C1-C4/D are literally identical across every product entry) rather than computing a per-product derived number that isn't itself printed anywhere \u2014 scaling factors range roughly 0.77x (NOFINES, 1790 kg/m3) to 1.13x (S5010 SCPLC2, 2580 kg/m3) if precision is needed.",
+    "gwp_total.source_page is set to the Mile End A1-A3 table page (19 or 20) for every product; the C1-C4/D figures within the same modules block actually come from PDF p.35 (see note above) \u2014 schema has one source_page per gwp_total block, so this is a disclosed simplification, not a hidden one.",
+    "COMPRESSIVE STRENGTH STANDARD: unlike the other Hallett/IES worked examples, this document never explicitly cites 'AS 1379' by name. value_mpa / raw_class come from Table 1's explicit Grade(MPa) column (p.5); the AS 1379 standard attribution is inferred from the S-/N- mix code prefixes (Special-class / Normal-class), which is the universal AU ready-mix convention, but is not a verbatim source citation.",
+    "'N2010P' / 'N2020P' naming: Table 1 (p.5) explicitly gives Grade=20 MPa for BOTH families despite '10'/'20' appearing in the code \u2014 the code encodes grade+slump/pump-designation (e.g. N20-10-P), not grade alone; cross-checked against the Grade column, not a source error.",
+    "gwp_a1a3_alt intentionally omitted for all products: per-plant EN15804+A1 tables exist (Dry Creek Table 18, Elizabeth Table 24, Mile End Table 30, McLaren Vale Table 36, Osborne Table 42) giving an alternate-methodology GWP per product, not extracted here to bound scope.",
+    "summary_extras intentionally omitted for all products: source reports PERE/PERT/PENRE/PENRT separately with no single combined 'total energy use' figure (same pattern as IES-0029695); net freshwater (FW) is reported per-product in the resource-use tables (e.g. Table 14 Dry Creek, Table 26 Mile End) but was not captured to bound file size.",
+    "Verification: 'EPD verification (External): no' is printed alongside a named third-party verifier (start2see Pty Ltd / Rob Rouwette, 'approved by EPD Australasia and The International EPD System') under 'EPD process certification (Internal)' \u2014 same pattern as IES-0029695 (Epsten Group): this is a company-wide EPD process certification, not a per-EPD external verifier sign-off.",
+    "Full registration: EPD-IES-0009353:003 (revision 3, published 2026-05-04; valid 2023-07-31 to 2028-07-31). Version history (p.71): 001 (2023-07-31) original release = the 24 N-series designs shared across all 5 plants; 002 (2024-10-11) added 20 designs at Dry Creek+Mile End; 003 (2026-05-04, this revision) added 32 further Mile-End-only designs.",
+    "Minor source typo: Table 1 (p.5) prints 'Level1' without a space for the S2520 PLC1 Enviro Construct level (all other entries have a space before the level number) \u2014 Enviro Construct level is not a schema field, noted for completeness only.",
+    "Per-m3 A1A3 outlier check: CLSMPEB (88.9), CLSM3 (72.7), CLSM4 (85.1), CLSM5 (97.5) fall under the schema's [100,650] sanity band \u2014 expected, not a data error: CLSM ('Controlled Low Strength Material') is a lean flowable-fill product (grade N/A, cement content near-zero, densities ~2000-2020 kg/m3), not structural concrete, so a low GWP is correct."
+  ]
+}

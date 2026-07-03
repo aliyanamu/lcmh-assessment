@@ -1,0 +1,57 @@
+{
+  "epd_id": "HUB-5394",
+  "product_name": "AN3220100Enhanced",
+  "manufacturer": "Tandy Concrete",
+  "program_operator": "EPD Hub",
+  "published": "2026-02-15",
+  "valid_until": "2031-02-14",
+  "standard": "EN 15804+A2",
+  "pcr": "EPD Hub Core PCR v1.2 (2025-03-24); cPCR EN 16757",
+  "lca_tool": "One Click LCA Concrete EPD Generator v3.2.1",
+  "verification": { "type": "external", "verifier": "Vera Durão" },
+  "scope": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+  "source": { "file": "EPD_HUB-5394_2026-06-27_en.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "N32",
+    "value_mpa": 32,
+    "test_age_days": 28,
+    "standard": "AS 1379:2007(2017)",
+    "source_page": 2
+  },
+  "location": {
+    "production": "Mackay, QLD, Australia",
+    "sites": ["Mackay, QLD"],
+    "country": "AU",
+    "source_page": 2
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2352, "source_page": 2 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 / EF 3.1",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 9,
+    "modules": {
+      "A1": 213, "A2": 15.9, "A3": 3.31, "A1A3": 232,
+      "A4": 2.79, "A5": 15.1,
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 4.48, "C2": 12.7, "C3": 7.2, "C4": 4.41,
+      "D": -13.2
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 232, "biogenic": -0.0196, "luluc": 0.025, "source_page": 9 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 232, "source_page": 11 },
+
+  "summary_extras": {
+    "total_energy_use_kwh_a1a3": { "value": 196, "source_page": 2 },
+    "net_freshwater_use_m3_a1a3": { "value": 0.61, "source_page": 2 }
+  },
+
+  "notes": [
+    "GWP-GHG table (p12) is numerically identical to GWP-total (p9) across every module — including A1-A3 = 232 — despite a non-zero GWP-biogenic component in A1-A3 (-0.0196); likely a reporting artifact (same pattern seen in IES-0029695), not used for the canonical A1A3 value here.",
+    "Exposure class is listed as 'A2' (AS 1379/AS 1012 durability exposure classification, p2) — coincides with the EN 15804 module code A2 (transport to manufacturer); the two are unrelated designations.",
+    "gwp_a1a3_alt (+A1/CML = 232) retained only to drive a 'not comparable' warning against +A2 figures; it numerically coincides with the +A2 A1A3 total (232) though the underlying A1/A2/A3 splits differ slightly (212/15.8/3.29 vs 213/15.9/3.31).",
+    "State (QLD) inferred from the company description (p3: 'staff across Queensland') — the manufacturer/production address itself (p2) reads only '21 Mackay Slade Point Road, Mackay, Australia', with no state abbreviation."
+  ]
+}

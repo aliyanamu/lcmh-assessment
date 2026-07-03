@@ -1,0 +1,59 @@
+{
+  "epd_id": "IES-0014958",
+  "product_name": "HyLo-50 Normal-Class 25 MPa",
+  "manufacturer": "Hymix Australia Pty Ltd",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2024-11-19",
+  "valid_until": "2029-11-19",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products v1.3.4; c-PCR-003 Concrete, concrete elements (EN 16757:2023)",
+  "lca_tool": "GCCA's Industry EPD Tool for Cement and Concrete v5.0 (International version)",
+  "verification": { "type": "process-certification", "verifier": "Epsten Group, Inc. (Megan Blizzard), A2LA #3142.03" },
+  "scope": "A1-A3 + A4-A5 + B1-B7 + C1-C4 + D, cradle-to-grave",
+  "source": { "file": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "25",
+    "value_mpa": 25,
+    "test_age_days": null,
+    "standard": "Not stated in source (product labelled 'Normal-Class 25 MPa'; no AS 1379 or explicit grade-code citation given — only AS 3600:2018 is cited, and only for the 50-year reference service life assumption)",
+    "source_page": 18
+  },
+  "location": {
+    "production": "Gold Coast, QLD, Australia",
+    "sites": ["Labrador", "Stapylton", "Burleigh"],
+    "country": "AU",
+    "source_page": 9
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2315, "source_page": 18 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 19,
+    "modules": {
+      "A1": "incl", "A2": "incl", "A3": "incl", "A1A3": 141,
+      "A4": 4.95, "A5": 10.7,
+      "B1": -3.28, "B2": 0, "B3": 0, "B4": 0, "B5": 0, "B6": 0, "B7": 0,
+      "C1": 9.64, "C2": 10.1, "C3": 4.44, "C4": 3.19,
+      "D": -13.1
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 141, "biogenic": 0.027, "luluc": 0.0217, "source_page": 19 },
+
+  "summary_extras": {
+    "net_freshwater_use_m3_a1a3": { "value": 1.78, "source_page": 19 }
+  },
+
+  "notes": [
+    "Filename encodes an internal mix/grade code 'GE252WA06-3' (per source-pdfs filename) that does NOT appear anywhere in the EPD document text; in-document the product is identified only as 'HyLo-50 Normal-Class 25 MPa' (registration EPD-IES-0014958:001, density 2315 kg/m3). raw_class recorded as printed in the 'Compressive strength' field ('25'); no formal grade code (e.g. 'N25') is given in the source.",
+    "Product stage reported combined only (A1-A3 = 141); the module-declaration table (p11) marks A1, A2 and A3 all 'X' (declared) but no numeric split is ever published → A1/A2/A3 = 'incl'.",
+    "B1 (Use stage) = -3.28 kg CO2e is a real declared value, not a zero/ND placeholder: it is the GCCA-tool default recarbonation credit for Stage B stated explicitly in the assumptions (p9: '-3.28 kg CO2 eq./m3 at Stage B'). B2-B7 are genuine declared zeros (use-stage impacts other than recarbonation assumed nil).",
+    "This is a Generic EPD for the Gold Coast region covering ONE product/registration (EPD-IES-0014958:001, this file). Pages 21-24 additionally print a large benchmarking table of ~50 SIBLING Hymix product lines (e.g. EPD-IES-0014955 through EPD-IES-0015011), each under its own separate EPD registration and each with only summary A1-A3/full-lifecycle GWP-tot figures (no module breakdown, no density, no verification info specific to this document). These are not sub-products of this EPD and are not modelled here; only the row matching EPD-IES-0014958:001 (A1-A3=141, Full lifecycle=167, Application='General') corresponds to this file's product. Treated as a single-product EPD.",
+    "No EN 15804+A1/CML alternate-methodology table is present in this document (unlike some EPD International SimaPro-based EPDs) → gwp_a1a3_alt omitted.",
+    "Total energy use omitted from summary_extras — source reports PERT (26.6 MJ, A1-A3) and PENRT (469 MJ, A1-A3) separately (p19); no single combined kWh figure is given.",
+    "Unlike other worked examples in this corpus, this document has no cover-page offset: PDF page index N corresponds exactly to printed page number N throughout (verified against printed page numbers on pp.1, 9, 18, 26)."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "epd_id": "IES-0021754",
+  "product_name": "AR2520 Premixed Concrete — General use",
+  "manufacturer": "Aurora Construction Materials Epping Pty Ltd",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2025-08-15",
+  "valid_until": "2030-08-15",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products v2.0.1 (2025-06-05); c-PCR-003 Concrete and Concrete Elements (2025-04-08)",
+  "lca_tool": "SimaPro v9.6.0.1",
+  "verification": { "type": "external", "verifier": "Claudia A. Peña, PINDA LCT SpA" },
+  "scope": "Cradle to gate (A1-A3) with modules C1-C4 and D; A4-A5 not declared",
+  "source": { "file": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "AR2520",
+    "value_mpa": 25,
+    "test_age_days": null,
+    "standard": "AS 1379:2007",
+    "source_page": 5
+  },
+  "location": {
+    "production": "Rockbank, VIC, Australia",
+    "sites": ["Rockbank"],
+    "country": "AU",
+    "source_page": 5
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2270, "source_page": 7 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 (EF 3.1)",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 18,
+    "modules": {
+      "A1": "incl", "A2": "incl", "A3": "incl", "A1A3": 140,
+      "A4": "ND", "A5": "ND",
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 12.0, "C2": 14.5, "C3": 8.03, "C4": 0.861,
+      "D": -9.79
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 140, "biogenic": -0.24, "luluc": 0.0119, "source_page": 18 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 139, "source_page": 20 },
+
+  "summary_extras": {
+    "net_freshwater_use_m3_a1a3": { "value": 2.02, "source_page": 19 }
+  },
+
+  "notes": [
+    "Product stage reported combined only (Table 10: A1-A3 GWP-total = 140 kg CO2e per m3); no individual A1/A2/A3 split published despite all three being marked declared in the scope table (p7) → A1/A2/A3 = 'incl'.",
+    "A4 and A5 (and all of B1-B7) are ND — scope is cradle-to-gate (A1-A3) plus end-of-life (C1-C4, D) only; construction and use stages excluded as no typical project scenario could be defined (p3, p7).",
+    "C1-C4/D use the default end-of-life scenario (84% recycled / 16% landfill per Victorian NWR 2022, PCR Table 4 defaults); Tables 13-14 (pp21-22) give alternative 100%-recycling and 100%-landfill C3/C4/D figures, not used for the headline gwp_total.",
+    "GWP-fossil (140) equals GWP-total (140) at A1-A3 because GWP-biogenic is small and negative (-0.24, from a proxy admixture dataset per p12 key-assumptions note) and GWP-luluc is small and positive (0.0119); fossil+biogenic+luluc ≈ 139.77 ≈ A1A3 within tolerance.",
+    "Table 9 (p16) is only an indicator-name legend for EN 15804+A1; the actual +A1 GWP figure is in Table 12 (p20, GWP = 139 kg CO2e at A1-A3). Source text never uses the word 'CML'; methodology labeled 'EN 15804+A1 / CML' per corpus convention for this alternate-methodology field. Table 12's own footnote cautions these 'A1 indicators' use +A1 characterisation factors but +A2 system boundaries/allocation, so are not strictly EN 15804+A1-compliant — retained only to power a 'not comparable' warning.",
+    "No single combined total-energy-use figure (kWh or MJ) is reported — PERT (34.1 MJ) and PENRT (1200 MJ) are declared separately at A1-A3 (Table 11, p19) → summary_extras.total_energy_use_kwh_a1a3 omitted.",
+    "Registration in-doc 'EPD-IES-0021754:001' (revision 001) matches the filename's '0021754-001' exactly — no id mismatch.",
+    "Single product, single production site (Rockbank, VIC) — doc explicitly states 'EPD of a single product from a manufacturer (from one location)' (p1)."
+  ]
+}

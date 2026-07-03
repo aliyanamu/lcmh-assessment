@@ -1,0 +1,51 @@
+# OS
+.DS_Store
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/
+
+# Temp / scratch
+tmp/
+temp/
+*.tmp
+
+# Node / Next.js (Part 2)
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package-manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp.*
+
+# Env (keep .env.example)
+.env
+.env*.local
+
+# Vercel
+.vercel
+
+# Python (scripts/)
+__pycache__/
+*.py[cod]
+
+# Coverage / test output
+coverage/

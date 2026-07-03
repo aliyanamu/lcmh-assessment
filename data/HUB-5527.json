@@ -1,0 +1,57 @@
+{
+  "epd_id": "HUB-5527",
+  "product_name": "CTILTS4020100Enhanced",
+  "manufacturer": "Tandy Concrete",
+  "program_operator": "EPD Hub",
+  "published": "2026-02-25",
+  "valid_until": "2031-02-24",
+  "standard": "EN 15804+A2",
+  "pcr": "EPD Hub Core PCR v1.2 (2025-03-24); cPCR EN 16757",
+  "lca_tool": "One Click LCA Concrete EPD Generator v3.2.1",
+  "verification": { "type": "external", "verifier": "Vera Durão" },
+  "scope": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+  "source": { "file": "EPD_HUB-5527_2026-06-27_en.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "S40",
+    "value_mpa": 40,
+    "test_age_days": 28,
+    "standard": "AS 1379-2007",
+    "source_page": 2
+  },
+  "location": {
+    "production": "Airlie Beach, Australia",
+    "sites": ["Airlie Beach"],
+    "country": "AU",
+    "source_page": 2
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2388, "source_page": 2 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 / EF 3.1",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 9,
+    "modules": {
+      "A1": 254, "A2": 26.3, "A3": 4.07, "A1A3": 284,
+      "A4": 2.19, "A5": 16.7,
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 4.54, "C2": 12.9, "C3": 7.31, "C4": 4.47,
+      "D": -13.4
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 284, "biogenic": -0.0281, "luluc": 0.0333, "source_page": 9 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 284, "source_page": 11 },
+
+  "summary_extras": {
+    "total_energy_use_kwh_a1a3": { "value": 255, "source_page": 2 },
+    "net_freshwater_use_m3_a1a3": { "value": 0.692, "source_page": 2 }
+  },
+
+  "notes": [
+    "Compressive strength class 'S40' (28-day) — the 'S' prefix denotes AS 1379 special-class concrete per this corpus's convention (cf. S32MPa/S25-20-100 in IES docs), though this EPD's own text never uses the words 'special-class'; standard recorded as the base 'AS 1379-2007' citation from the bibliography (p7) and product description (p2, '...designed to comply with the requirements of AS1379').",
+    "location.sites reflects the single 'Place of production' address given for this product (Airlie Beach, p2). Marketing text on p3 separately lists five company-wide batch plants (Airlie Beach, Mackay, Marian, Rockhampton, Yeppoon) not tied specifically to this EPD's declared production site.",
+    "p12 GWP-GHG (A1-A3 = 284) prints identical to GWP-total (A1-A3 = 284) despite a small non-zero biogenic component (-0.0281 at A1-A3) — likely a rounding artifact at 3 significant figures, the same pattern flagged in IES-0029695. GWP-GHG is not used anywhere in this record (never placed in gwp_a1a3_alt).",
+    "EN 15804+A1/CML table (p11) A1-A3 total also rounds to 284, coincidentally identical to the +A2 figure; underlying per-module CML values differ slightly (A1 253 vs 254, A2 26.2 vs 26.3, A3 4.04 vs 4.07), consistent with them being separate methodologies."
+  ]
+}

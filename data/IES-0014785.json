@@ -1,0 +1,62 @@
+{
+  "epd_id": "IES-0014785",
+  "product_name": "GE322LPF2 — General works",
+  "manufacturer": "Heidelberg Materials Australia Pty Ltd",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2024-11-19",
+  "valid_until": "2029-11-19",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products v1.3.4; c-PCR-003 Concrete, concrete elements (EN 16757:2023)",
+  "lca_tool": "GCCA's Industry EPD Tool for Cement and Concrete v4.2, International version",
+  "verification": { "type": "process-certification", "verifier": "Epsten Group, Inc. (Megan Blizzard), A2LA #3142.03" },
+  "scope": "A1-A3 + A4-A5 + B1-B7 + C1-C4 + D, cradle-to-grave",
+  "source": { "file": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "GE322LPF2",
+    "value_mpa": 32,
+    "test_age_days": null,
+    "standard": null,
+    "source_page": 17
+  },
+  "location": {
+    "production": "Brisbane, QLD, Australia",
+    "sites": ["Jindalee", "Coopers Plains", "Ipswich"],
+    "country": "AU",
+    "source_page": 8
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2355.5, "source_page": 17 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 (EF 3.0)",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 18,
+    "modules": {
+      "A1": "incl", "A2": "incl", "A3": "incl", "A1A3": 145,
+      "A4": 3.41, "A5": 10.1,
+      "B1": -3.17, "B2": 0, "B3": 0, "B4": 0, "B5": 0, "B6": 0, "B7": 0,
+      "C1": 8.99, "C2": 9.03, "C3": 5.19, "C4": 2.85,
+      "D": -14.1
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 145, "biogenic": 0.0483, "luluc": 0.0321, "source_page": 18 },
+
+  "summary_extras": {
+    "net_freshwater_use_m3_a1a3": { "value": 2.14, "source_page": 18 }
+  },
+
+  "notes": [
+    "Product stage reported combined only (A1-A3 = 145 kg CO2e); source's module table (p18) has a single 'A1-A3' column with no A1/A2/A3 split → A1/A2/A3 = 'incl'.",
+    "Unlike most EPDs in this corpus, B1-B7 (use stage) are fully declared here, not ND: the module-scope table (p10) marks every module A1-D with 'X'. B1 = -3.17 kg CO2e is a real recarbonation credit during use (GCCA tool default, p8); B2-B7 = 0 are genuine declared zeros because the scenario assumes no maintenance/repair/replacement occurs (p10 text), not a not-declared gap.",
+    "No compressive-strength test standard (e.g. AS 1379) is stated anywhere in the document — p8 references AS 3600:2018 only for the reference-service-life exposure class, not for strength grading — so compressive_strength.standard is recorded as null rather than inferred.",
+    "Location: p17 summary field 'Production site(s)' just says 'Brisbane'; the specific plants supplying this project-specific EPD are named on p8 ('Concrete plants in the study include: Jindalee, Coopers Plains, Ipswich') — used as sites[] here.",
+    "This is a project-specific EPD for the Hutchinson Builders – Woolworths Doolandella project (QLD-Brisbane, p1/p22); GE322LPF2 is the specific mix declared by this EPD (registration EPD-IES-0014785:001).",
+    "p20 contains a comparison appendix listing 17 sibling mixes from the same project, each with its own separate EPD registration number (e.g. GE322LPE8 = EPD-IES-0014784:001) — these are distinct EPD documents, not additional products declared within this file. The GE322LPF2 row there (32 MPa, A1-A3=145, 'Full Lifecycle GWP-tot'=167) corroborates the p18 figures: summing all modules A1-A3..D from p18 (145+3.41+10.1-3.17+8.99+9.03+5.19+2.85-14.1) = 167.3 ≈ 167; note the source's own 'full lifecycle' figure sums module D into the total, which this record does not replicate (D is stored separately per schema and never summed).",
+    "verification: p22's ISO 14025 verification-type checkboxes ('EPD process certification' / 'EPD verification') render as unchecked boxes with a stray 'x' mark displaced to the end of the page by PDF text extraction, so the checked box can't be confirmed by position alone. Inferred as 'process-certification' from the named certifying body ('Process EPD Certified By: Megan Blizzard, Epsten Group, Inc., A2LA #3142.03') — same verifier/org as IES-0029695, which uses the same type.",
+    "No EN 15804+A1/CML alternate-methodology table present in this document → gwp_a1a3_alt omitted.",
+    "total_energy_use_kwh_a1a3 omitted — source reports PERT/PENRT (MJ) separately on p18 with no single combined kWh total. net_freshwater_use_m3_a1a3 (2.14) taken directly from the 'NFW' (Net use of fresh water, m³) row, already in m³, no conversion needed.",
+    "Single product declared in this EPD (no products[] array needed)."
+  ]
+}

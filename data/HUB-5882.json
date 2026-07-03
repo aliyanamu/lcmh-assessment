@@ -1,0 +1,60 @@
+{
+  "epd_id": "HUB-5882",
+  "product_name": "40 MPa High Performance Concrete",
+  "manufacturer": "Boral Limited",
+  "program_operator": "EPD Hub",
+  "published": "2026-03-27",
+  "valid_until": "2031-03-26",
+  "standard": "EN 15804+A2",
+  "pcr": "EPD Hub Core PCR v1.2 (2025-03-24); cPCR EN 16757",
+  "lca_tool": "One Click LCA EPD Generator",
+  "verification": { "type": "external", "verifier": "Vera Durão" },
+  "scope": "Cradle-to-gate (A1-A3) with modules C1-4, D",
+  "source": { "file": "EPD_HUB-5882_2026-06-27_en.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "S40",
+    "value_mpa": 40,
+    "test_age_days": 28,
+    "standard": "AS 1379-2007",
+    "source_page": 4
+  },
+  "location": {
+    "production": "Melbourne, VIC, Australia",
+    "sites": ["Deer Park", "Tullamarine", "Somerton", "Sunbury", "Wollert", "Melton", "West Melbourne", "West Melbourne (wet)"],
+    "country": "AU",
+    "source_page": 6
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2338, "source_page": 4 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 / EF 3.1",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 13,
+    "modules": {
+      "A1": 276, "A2": 15, "A3": 5.6, "A1A3": 297,
+      "A4": "ND", "A5": "ND",
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 4.45, "C2": 12.6, "C3": 7.16, "C4": 4.38,
+      "D": -12.8
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 297, "biogenic": 0.0247, "luluc": 0.048, "source_page": 13 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 297, "source_page": 17 },
+
+  "summary_extras": {
+    "total_energy_use_kwh_a1a3": { "value": 454, "source_page": 4 },
+    "net_freshwater_use_m3_a1a3": { "value": 7.1, "source_page": 4 }
+  },
+
+  "notes": [
+    "Cover title reads '40 MPa High Performance Concrete Melbourne'; the Product specification section (p4) gives the base product name without the location suffix — product_name follows p4, with 'Melbourne' captured separately as location.production.",
+    "Scope text on p3 prints 'Cradle-to-gate (A1-3)' (non-standard abbreviation) vs 'A1-A3' used throughout the rest of the document (environmental data summary p4, impact tables p13-18); normalized to 'A1-A3' in the scope field here.",
+    "A4-A5 (transport/installation) and B1-B7 (use stage) are all ND per the system boundary table (p5) and the 'Modules not declared' text (p11) — narrower scope than EPDs that declare A4-A5.",
+    "EPD verifier named is Vera Durão, acting for EPD Hub Limited (p3); the Internal/External verification checkboxes on p3 render without a visible check mark in extracted text, so 'external' is inferred from the named third-party verifier (same verifier as EPD Hub example HUB-5943).",
+    "location.sites (8 sites) sourced from the site-grouping paragraph on p6, which also confirms the state as Victoria; place of production ('Melbourne') and country context appear separately on p3's general information section.",
+    "Product is a single declared result averaged by volume across 8 grouped Melbourne-metro sites (Deer Park, Tullamarine, Somerton, Sunbury, Wollert, Melton, West Melbourne, West Melbourne (wet)); reported GWP variation across sites for A1-A3 is -0.4% to +1.3% (p6).",
+    "EN 15804+A1/CML table (p17) gives Global Warming Pot. A1-A3 = 297, effectively identical to the +A2 figure — captured as gwp_a1a3_alt to power the 'not comparable' methodology warning. A separate GWP-GHG table (p18) also = 297 but per schema is never used for gwp_a1a3_alt."
+  ]
+}

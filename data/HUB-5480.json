@@ -1,0 +1,59 @@
+{
+  "epd_id": "HUB-5480",
+  "product_name": "ATILTS4020100Enhanced",
+  "manufacturer": "Tandy Concrete",
+  "program_operator": "EPD Hub",
+  "published": "2026-02-20",
+  "valid_until": "2031-02-19",
+  "standard": "EN 15804+A2",
+  "pcr": "EPD Hub Core PCR v1.2 (2025-03-24); cPCR EN 16757",
+  "lca_tool": "One Click LCA Concrete EPD Generator v3.2.1",
+  "verification": { "type": "external", "verifier": "Vera Durão" },
+  "scope": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+  "source": { "file": "EPD_HUB-5480_2026-06-27_en.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "S40",
+    "value_mpa": 40,
+    "test_age_days": 28,
+    "standard": "AS 1379:2007",
+    "source_page": 2
+  },
+  "location": {
+    "production": "Mackay, QLD, Australia",
+    "sites": ["Mackay, QLD"],
+    "country": "AU",
+    "source_page": 2
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2408, "source_page": 2 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 / EF 3.1",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 9,
+    "modules": {
+      "A1": 259, "A2": 17.7, "A3": 3.39, "A1A3": 280,
+      "A4": 2.85, "A5": 16.6,
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 4.58, "C2": 13, "C3": 7.38, "C4": 4.51,
+      "D": -13.5
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 280, "biogenic": -0.0246, "luluc": 0.0296, "source_page": 9 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 280, "source_page": 11 },
+
+  "summary_extras": {
+    "total_energy_use_kwh_a1a3": { "value": 215, "source_page": 2 },
+    "net_freshwater_use_m3_a1a3": { "value": 0.673, "source_page": 2 }
+  },
+
+  "notes": [
+    "Product standards field (p2) lists 'EN 206', but the product description and bibliography (p2, p7) both cite 'AS 1379 - Specification and supply of concrete' as the governing standard for the S40 compressive-strength class (S-grade is an AS 1379 special-class designation, not EN 206) — compressive_strength.standard uses AS 1379:2007 accordingly; EN 206 appears to be an unrelated template default.",
+    "location.production/sites normalized to 'Mackay, QLD, Australia' — the source address (p2) states only '21 Mackay Slade Point Road, Mackay, Australia' with no state code; QLD added since the doc repeatedly situates Mackay operations within Queensland (p3).",
+    "A5 installation text (p7) reads 'A production loss of  % at installation is assumed (A5)' with the percentage figure dropped from the extracted PDF text (the allocation section on p5 gives 'A5, 3% waste'); does not affect the declared GWP-A5 figure (16.6 kg CO2e) used here.",
+    "Single-site, non-grouped EPD: 'Type of grouping: No grouping ... This EPD is product and factory specific' (p5).",
+    "gwp_a1a3_alt (+A1/CML, p11) = 280, identical to the +A2 GWP-total (p9) at this precision — retained only to drive a 'not comparable' warning.",
+    "A separate 'ADDITIONAL INDICATOR – GWP-GHG' table exists (p12, A1-A3 = 280, same as GWP-total since biogenic contribution is negligible) — not used for gwp_a1a3_alt per schema (never GWP-GHG)."
+  ]
+}

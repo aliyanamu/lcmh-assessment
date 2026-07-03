@@ -1,0 +1,58 @@
+{
+  "epd_id": "HUB-5555",
+  "product_name": "40MPa 20mm Enviro 50% SCM 100SL Conc",
+  "manufacturer": "Boral Limited",
+  "program_operator": "EPD Hub",
+  "published": "2026-02-26",
+  "valid_until": "2031-02-25",
+  "standard": "EN 15804+A2",
+  "pcr": "EPD Hub Core PCR v1.2 (2025-03-24); cPCR EN 16757",
+  "lca_tool": "One Click LCA EPD Generator",
+  "verification": { "type": "external", "verifier": "Vera Durão" },
+  "scope": "Cradle-to-gate (A1-3) with modules C1-4, D",
+  "source": { "file": "EPD_HUB-5555_2026-06-27_en.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "S40",
+    "value_mpa": 40,
+    "test_age_days": 28,
+    "standard": "AS 1379",
+    "source_page": 4
+  },
+  "location": {
+    "production": "Melbourne, VIC, Australia",
+    "sites": ["Deer Park", "Tullamarine", "Somerton", "Sunbury", "Wollert", "Melton", "West Melbourne", "West Melbourne (wet)"],
+    "country": "AU",
+    "source_page": 6
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2338, "source_page": 4 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 / EF 3.1",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 13,
+    "modules": {
+      "A1": 209, "A2": 6.12, "A3": 5.60, "A1A3": 220,
+      "A4": "ND", "A5": "ND",
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 4.45, "C2": 12.6, "C3": 7.16, "C4": 4.38,
+      "D": -12.8
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 220, "biogenic": 0.0926, "luluc": 0.074, "source_page": 13 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 220, "source_page": 17 },
+
+  "summary_extras": {
+    "total_energy_use_kwh_a1a3": { "value": 318, "source_page": 4 },
+    "net_freshwater_use_m3_a1a3": { "value": 4.97, "source_page": 4 }
+  },
+
+  "notes": [
+    "Product stage A1/A2/A3 reported as a real split (209 + 6.12 + 5.60 ≈ 220 = A1A3), not combined-only — modules stored as numbers, not 'incl'.",
+    "A4-A5 (transport/installation) and B1-B7 (use stage) are explicitly ND per the system-boundary table (p5) and narrative text ('Modules not declared', p11) — narrower scope than some EPDs (no construction or use stage).",
+    "Site grouping (p6): product declared as a single result averaged across 8 Melbourne-metro sites — Deer Park, Tullamarine, Somerton, Sunbury, Wollert, Melton, West Melbourne, and West Melbourne (wet); the last two are distinct plants (dry vs wet batching) both named 'West Melbourne' in the source, kept verbatim as separate list entries. Place of production (p3, general info) is given simply as 'Melbourne'.",
+    "A separate EN 15804+A1/CML GWP table exists (p17, A1-A3 = 220) → captured as gwp_a1a3_alt for the 'not comparable' warning. A further 'GWP-GHG' indicator table (p18, A1-A3 = 220) also exists but per schema is never used for gwp_a1a3_alt.",
+    "Compressive strength standard cited in source only as 'AS 1379' (no year/edition given, unlike some sibling EPDs that cite 'AS 1379-2007')."
+  ]
+}

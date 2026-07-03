@@ -1,0 +1,59 @@
+{
+  "epd_id": "IES-0021165",
+  "product_name": "Futurecrete Normal Class GL:Slag 25 MPa (SN252F100)",
+  "manufacturer": "Adbri Limited",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2025-03-13",
+  "valid_until": "2030-03-13",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products v1.3.4 (2021-02-05); C-PCR-003 Concrete and Concrete Elements (EN 16757) v2019-12-20",
+  "lca_tool": "SimaPro® LCA software (v9.4.0.1 per LCA methodology section, p17; v9.5 per Environmental performance results intro, p29 — versions inconsistent in source)",
+  "verification": { "type": "process-certification", "verifier": "Epsten Group, A2LA Certificate #3142.03" },
+  "scope": "Cradle to gate (A1-A3) with options, modules A4-A5, C1-C4, D declared per module table (Table 3, p18); only A1-A3 and A4 results are actually provided in this document",
+  "source": { "file": "epd-ies-0021165-sn252f100.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "SN252F100",
+    "value_mpa": 25,
+    "test_age_days": null,
+    "standard": "AS 1379",
+    "source_page": 32
+  },
+  "location": {
+    "production": "South Australia, Australia",
+    "sites": ["Burton", "Dry Creek", "Gawler", "Gillman", "Littlehampton", "Lonsdale", "Murray Bridge", "Sellicks", "Victor Harbor", "Welland"],
+    "country": "AU",
+    "source_page": 11
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": null, "source_page": 17 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2 (EF 3.1)",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 32,
+    "modules": {
+      "A1": "incl", "A2": "incl", "A3": "incl", "A1A3": 143.83,
+      "A4": 9.64, "A5": "ND",
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": "ND", "C2": "ND", "C3": "ND", "C4": "ND",
+      "D": "ND"
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 143.73, "biogenic": 0.113, "luluc": 0.0177, "source_page": 32 },
+
+  "summary_extras": {
+    "net_freshwater_use_m3_a1a3": { "value": -0.0444, "source_page": 32 }
+  },
+
+  "notes": [
+    "Product stage reported combined only (A1-A3 GWP-total = 143.83 kg CO2e, Table 8 p32); source gives no A1/A2/A3 split despite marking them declared → A1/A2/A3 = 'incl'.",
+    "Module scope table (Table 3, p18) marks A5, C1, C2, C3, C4 and D as declared ('X'), but no corresponding results tables exist anywhere in this 40-page document — table numbering jumps from Table 11 (p33, 'Additional Environmental Impact of Product Stage A1-A3') directly to Table 13 (p34, Distribution stage A4), skipping 'Table 12' entirely, which most likely would have held end-of-life (C1-C4/D) and/or A5 data. Recorded as 'ND' here since no numeric values could be sourced, despite nominally being in scope. p37 ('Interpretation of results') only instructs readers to add A4 to A1-A3, reinforcing that A5/C/D were never actually computed for this specific mix report.",
+    "Declared-unit mass (mass_kg) is not reported anywhere in the source — the 'Content declaration' chapter (p22-26) contains no material composition, density, or mass table for this or any mix (unlike other EPDs in this corpus). Recorded as null.",
+    "LCA software version is inconsistent in the source: 'SimaPro® LCA software (v 9.4.0.1)' per the Databases and LCA software section (p17), vs 'SimaPro v9.5' per the Environmental performance results intro (p29).",
+    "Mix code 'SN252F100' is paired in the results tables (Tables 8-11, p32-33) with product-group label 'Futurecrete Normal Class GL:Slag 25 MPa' (an EvoCem/Type-GL cement + slag lower-carbon Futurecrete mix, categorised as 'Normal Class'). Elsewhere (p27) the document states specific mix codes are assigned to 'special class' mixes — an apparent inconsistency with the 'S' prefix and 'Normal Class' label here. Raw class recorded verbatim; compressive_strength.standard recorded as plain 'AS 1379' (no special/normal-class qualifier) due to this ambiguity.",
+    "p7 records this specific document as 'Version No. 1' (13-03-2025) with Summary 'RAA Building Project with Feltrin A & Son', and Table 2 (p16) lists many SA site/cementitious-type/strength combinations assessed under the broader Adbri South Australia LCA study. This suggests the PDF is a project-specific single-mix extract from a larger Adbri EPD family/system rather than a fully generic multi-product public EPD — but this specific declaration (EPD-IES-0021165) reports results for exactly one product (SN252F100), so it is treated as a single product here.",
+    "GWP-GHG (144 kg CO2e, Table 11 p33) is marginally higher than GWP-total (143.83 kg CO2e, Table 8 p32) despite GWP-GHG excluding biogenic CO2 (which should make it slightly lower, not higher) — likely a rounding artifact at 3 significant figures rather than a data error."
+  ]
+}

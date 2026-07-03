@@ -1,0 +1,61 @@
+{
+  "epd_id": "IES-0014327",
+  "product_name": "GEOStone QX25MOR (S25 Moreton GEOStone) — Decorative",
+  "manufacturer": "Holcim (Australia) Pty Ltd",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2026-04-02",
+  "valid_until": "2031-04-02",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products, Version 2.0.1 (2025-06-05); c-PCR-003 Concrete and Concrete Elements (2025-04-08)",
+  "lca_tool": "SimaPro v10.2 (Holcim LCA Calculator)",
+  "verification": { "type": "process-certification", "verifier": "Epsten Group, Inc. (Megan Blizzard), A2LA #3142.03" },
+  "scope": "Cradle to gate (A1-A3) with options, modules A4-A5, C1-C4, D",
+  "source": { "file": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "QX25MOR",
+    "value_mpa": 25,
+    "test_age_days": null,
+    "standard": "AS 1379",
+    "source_page": 10
+  },
+  "location": {
+    "production": "South East Queensland (SEQ), QLD, Australia",
+    "sites": ["Brisbane City", "Acacia Ridge", "Beaudesert", "Beenleigh", "Boonah", "Cleveland", "Geebung", "Narangba", "Wacol", "Murarrie", "Beerwah", "Caloundra", "Gympie", "Caboolture", "Noosa", "Kawana", "Southport", "Tweed Heads", "Burleigh Heads", "Coomera", "Raceview", "Jacobs Well", "Brendale", "Darra", "Nanango", "Murgon", "Toowoomba", "Warwick"],
+    "country": "AU",
+    "source_page": 10
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2361, "source_page": 10 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 16,
+    "modules": {
+      "A1": "incl", "A2": "incl", "A3": "incl", "A1A3": 237,
+      "A4": 2.63, "A5": 15.6,
+      "B1": "ND", "B2": "ND", "B3": "ND", "B4": "ND", "B5": "ND", "B6": "ND", "B7": "ND",
+      "C1": 0.522, "C2": 4.39, "C3": 10.5, "C4": 0,
+      "D": -18.8
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 237, "biogenic": 0.605, "luluc": 0.0291, "source_page": 16 },
+  "gwp_a1a3_alt": { "methodology": "EN 15804+A1 / CML", "value": 241, "source_page": 18 },
+
+  "summary_extras": {
+    "net_freshwater_use_m3_a1a3": { "value": 0.646, "source_page": 16 }
+  },
+
+  "notes": [
+    "Product stage reported combined only (A1-A3 = 237); p9 module table marks A1/A2/A3 as declared (X) but no individual split is given anywhere in the doc → A1/A2/A3 = 'incl'.",
+    "GWP-Total, GWP-Fossil, and GWP-GHG (p16-17) are numerically identical across every module (e.g. A1-A3 = 237 for all three) despite non-zero biogenic (0.605) and luluc (0.0291) contributions — the same artifact noted in sibling Holcim EPDs (e.g. IES-0029695); GWP-Total (row 'GWP-Total') used here as the canonical +A2 figure.",
+    "C4 (final disposal) GWP = 0 is a printed zero, not ND — C4 does model a physical inert-waste-landfill mass flow of 480 kg (p13, since Module D assumes a 100% recycling scenario per PCR 2.0.1 requirements), so the mass flow exists but carries no attributed GWP impact in the results table.",
+    "compressive_strength.standard: the document gives only generic AS 1379 normal-/special-class definitions (p5) and never explicitly labels QX25MOR/GEOStone as one or the other. The 'S25' prefix in the mix description ('S25 MORETON GEOSTONE') follows the same naming convention as special-class grades in sibling Holcim EPDs (e.g. IES-0029695's S25/20/100), but this class attribution is inferred, not stated, for this specific mix — recorded as 'AS 1379' without a class qualifier.",
+    "Full registration: EPD-IES-0014327:002 (revision 2) — revision history (p3) notes 'Update of mix designs and addition of new mixes'.",
+    "Source capitalization inconsistency: the product line is rendered 'GEOStone' on the title page (p1) but 'GEOSTONE' (all caps) in the mix description table (p10) — both verbatim from source.",
+    "Total energy use omitted — source reports PERT (52.0 MJ) and PENRT (1336 MJ) separately at A1-A3 (p16), no single combined figure.",
+    "gwp_a1a3_alt (+A1/CML = 241, p18) differs from the +A2 GWP-Total (237) and is retained only to drive a 'not comparable' warning against the canonical +A2 figure."
+  ]
+}

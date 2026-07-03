@@ -1,0 +1,62 @@
+{
+  "epd_id": "IES-0014769",
+  "product_name": "P252080 — General use",
+  "manufacturer": "Hanson Construction Materials Pty Ltd",
+  "program_operator": "EPD International AB",
+  "regional_operator": "EPD Australasia",
+  "published": "2024-08-26",
+  "valid_until": "2029-08-26",
+  "standard": "EN 15804+A2",
+  "pcr": "PCR 2019:14 Construction Products v1.3.4; c-PCR-003 Concrete, concrete elements (EN 16757:2023)",
+  "lca_tool": "GCCA's Industry EPD Tool for Cement and Concrete (V4.2), International version",
+  "verification": { "type": "process-certification", "verifier": "Epsten Group, Inc. (Katherine McFeaters), A2LA #3142.03" },
+  "scope": "A1-A3 + A4-A5 + B1-B7 + C1-C4 + D, cradle-to-grave",
+  "source": { "file": "EPD-IES-0014769_P252080.pdf" },
+
+  "compressive_strength": {
+    "raw_class": "25",
+    "value_mpa": 25,
+    "test_age_days": null,
+    "standard": "Not stated in source",
+    "source_page": 20
+  },
+  "location": {
+    "production": "Brisbane, QLD, Australia",
+    "sites": ["Brisbane"],
+    "country": "AU",
+    "source_page": 20
+  },
+  "declared_unit": { "unit": "1 m3", "mass_kg": 2480, "source_page": 20 },
+
+  "gwp_total": {
+    "methodology": "EN 15804+A2",
+    "unit": "kg CO2e",
+    "per": "1 m3",
+    "source_page": 21,
+    "modules": {
+      "A1": "incl", "A2": "incl", "A3": "incl", "A1A3": 127,
+      "A4": 2.45, "A5": 9.95,
+      "B1": -2.65, "B2": 0, "B3": 0, "B4": 0, "B5": 0, "B6": 0, "B7": 0,
+      "C1": 8.99, "C2": 8.85, "C3": 5.24, "C4": 2.79,
+      "D": 6.14
+    }
+  },
+  "gwp_a1a3_split": { "fossil": 126, "biogenic": 0.0462, "luluc": 0.0292, "source_page": 21 },
+
+  "summary_extras": {
+    "net_freshwater_use_m3_a1a3": { "value": 2.19, "source_page": 21 }
+  },
+
+  "notes": [
+    "This PDF's dedicated product-performance pages (20-22, registration EPD-IES-0014769:001) cover only mix 'P252080'. The shared cover page and portfolio summary table (pages 1, 18) list 18 sibling Hanson mixes for the same project (BN402BO31 ... SAP40280, registrations EPD-IES-0014761 through -0014779), each with its own registration number and presumably its own EPD PDF — not treated as multiple products here since only P252080's data pages are in scope for this file/epd_id.",
+    "Product stage reported combined only (A1-A3 = 127); source gives no A1/A2/A3 split → A1/A2/A3 = 'incl'.",
+    "Unlike other Hanson/EPD-Australasia EPDs in this corpus, B1-B7 are IN SCOPE here with real declared values, not 'ND': page 12's lifecycle table checks (✓) every stage A1-D1, and the scope string on p20 explicitly lists 'B1-B7'. B1 = -2.65 (a recarbonation credit during use — matches the 'CC' extra-indicator row showing -2.65 at B1) and B2-B7 = 0 (declared zero; source states 'no maintenance repair or replacement... required, values are displayed as zero').",
+    "GWP-GHG (A1-A3) is printed identical to GWP-tot (A1-A3) = 127 despite non-zero GWP-bio (0.0462) and GWP-luc (0.0292) at A1-A3 — same artifact previously flagged in IES-0029695; not corrected here.",
+    "Module D (benefits/loads) = +6.14 kg CO2e, i.e. a net burden rather than the net credit typically seen in comparable EPDs (e.g. HUB-5943 D=-11.7, IES-0029695 D=-18.5); recorded as printed, not adjusted.",
+    "No compressive-strength testing standard (e.g. AS 1379) is cited anywhere in the source for this mix — only the bare class '25' (MPa) is given on the product-identification slide (p20) and summary table (p18). AS 3600:2018 appears elsewhere in the doc (p10) only re: Reference Service Life/exposure-class assumptions, not compressive-strength testing.",
+    "This is a project-specific EPD (p10) for the 'Hutchinson Builders - Aliro Warehouse' project, single site 'Brisbane' (p20) — narrower site scope than generic multi-plant EPDs elsewhere in this corpus (e.g. IES-0029695's 14 QLD plants).",
+    "No separate EN 15804+A1/CML GWP table found in the source → gwp_a1a3_alt omitted.",
+    "Independent-verification checkboxes on p24 ('EPD process certification' / 'EPD verification') extracted as empty glyphs, with an unattached stray 'x' character elsewhere on the page — verification.type inferred as process-certification from the explicit 'Process EPD Certified By: Katherine McFeaters, Epsten Group, Inc., A2LA #3142.03' block, same certifying body/accreditation number used in IES-0029695.",
+    "Total energy use (single combined kWh figure) not reported — source gives PERT (44.9 MJ) and PENRT (1010 MJ) separately at A1-A3, no combined total; summary_extras.total_energy_use_kwh_a1a3 omitted."
+  ]
+}
