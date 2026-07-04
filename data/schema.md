@@ -1,4 +1,4 @@
-# EPD Extraction Schema — v1.2
+# EPD Extraction Schema — v1.3
 
 One JSON file per EPD PDF in `data/<epd_id>.json`. This is the source of truth for the shape; the validator (`scripts/validate.mjs`) enforces the machine-checkable parts.
 
@@ -20,7 +20,7 @@ One JSON file per EPD PDF in `data/<epd_id>.json`. This is the source of truth f
 | `verification` | `{ type, verifier }` | `type` ∈ `external` \| `process-certification` \| `internal`. `verifier` is a person **or** a certifying body. |
 | `scope` | string | The declared module scope, verbatim-ish. |
 | `source` | `{ file, drive_id? }` | `file` = the **exact original PDF filename** in `source-pdfs/` (kept as-received — it carries registration/revision/product/date; the authoritative provenance link). Validator asserts it resolves. |
-| `compressive_strength` | `{ raw_class, value_mpa, test_age_days, standard, source_page }` | `raw_class` verbatim (`N50`, `S32MPa`, `S25/20/100`, `QE252M100`, `25`…). `value_mpa` derived when parseable, else `null`. `test_age_days` nullable (absent in IES docs). |
+| `compressive_strength` | `{ raw_class, value_mpa, test_age_days, standard, source_page }` | `raw_class` verbatim (`N50`, `S32MPa`, `S25/20/100`, `QE252M100`, `25`…). `value_mpa` derived when parseable, else `null`. `test_age_days` nullable — absent in most IES docs, but `IES-20602` carries a **56-day** age inferred from its mix code (`@56D`); an unstated age is **never assumed 28**. |
 | `location` | `{ production, sites[], country, source_page }` | `country` ISO-2. |
 | `declared_unit` | `{ unit, mass_kg, source_page }` | `mass_kg` = declared-unit mass → enables m³↔tonne normalization. |
 | `gwp_total` | `{ methodology, unit, per, source_page, modules }` | Canonical GWP series = **EN 15804 +A2**. See modules below. |
@@ -61,7 +61,21 @@ A **catalog / industry-average EPD** (e.g. `IES-0009353` — 76 mix designs) ins
 
 Run: `node scripts/validate.mjs`
 
+## Provenance bridge (`bridge/*.json`)
+
+`source_page` says *which* page a figure is on; the **bridge** proves the number is actually *there*. `bridge/<epd_id>.json` mirrors each record and pairs every numeric figure with the **verbatim token** as printed in the PDF — the real ↔ transformed mirror:
+
+```json
+"modules.A2": { "value": 36.1, "page": 8, "raw": "3.61E+01" }
+```
+
+`verify_bridge.py` then checks each figure **exactly** — `raw ⊂ page_text` (grep-able existence) and `parse(raw) ≈ value` (faithful transform) — no fuzzy scanning. It also records each figure's **true page**, which can be finer than the block's `source_page` (e.g. a shared end-of-life module printed on a later page than the product-stage table that cites it). A value that is not text-extractable — an **image-rendered** results table — is stored `raw: null` and reported as **UNPROVEN**: surfaced, never a silent pass.
+
+Regenerate: `python3 scripts/verify_bridge.py --bootstrap` · check: `python3 scripts/verify_bridge.py`. The app never reads the bridge; it is a verification/audit layer.
+
 ## Version
+
+**v1.3** — added the `bridge/` provenance layer: every numeric figure paired with its verbatim source token, verified exactly by `verify_bridge.py` (`raw ⊂ page` + `parse(raw) ≈ value`). Image-rendered figures surface as UNPROVEN; per-figure true page recorded.
 
 **v1.2** — added the multi-product `products[]` variant after `IES-0009353` (76-mix catalog EPD) surfaced during batch extraction.
 

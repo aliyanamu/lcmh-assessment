@@ -1,0 +1,76 @@
+{
+  "epd_id": "IES-0029695",
+  "source_file": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2319,
+      "page": 10,
+      "raw": "2319"
+    },
+    "modules.A1A3": {
+      "value": 146,
+      "page": 16,
+      "raw": "146"
+    },
+    "modules.A4": {
+      "value": 2.58,
+      "page": 16,
+      "raw": "2.58"
+    },
+    "modules.A5": {
+      "value": 12.9,
+      "page": 16,
+      "raw": "12.9"
+    },
+    "modules.C1": {
+      "value": 0.522,
+      "page": 16,
+      "raw": "0.522"
+    },
+    "modules.C2": {
+      "value": 4.31,
+      "page": 16,
+      "raw": "4.31"
+    },
+    "modules.C3": {
+      "value": 10.4,
+      "page": 16,
+      "raw": "10.4"
+    },
+    "modules.C4": {
+      "value": 0,
+      "page": 16,
+      "raw": "0"
+    },
+    "modules.D": {
+      "value": -18.5,
+      "page": 16,
+      "raw": "-18.5"
+    },
+    "split.fossil": {
+      "value": 145,
+      "page": 16,
+      "raw": "145"
+    },
+    "split.biogenic": {
+      "value": 0.822,
+      "page": 16,
+      "raw": "0.822"
+    },
+    "split.luluc": {
+      "value": 0.0489,
+      "page": 16,
+      "raw": "0.0489"
+    },
+    "alt.value": {
+      "value": 147,
+      "page": 18,
+      "raw": "147"
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": 0.483,
+      "page": 16,
+      "raw": "0.483"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "epd_id": "HUB-5210",
+  "source_file": "EPD_HUB-5210_2026-06-27_en.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2225,
+      "page": 4,
+      "raw": "2225"
+    },
+    "modules.A1": {
+      "value": 255,
+      "page": 13,
+      "raw": "2.55E+02"
+    },
+    "modules.A2": {
+      "value": 13.8,
+      "page": 13,
+      "raw": "1.38E+01"
+    },
+    "modules.A3": {
+      "value": 5.97,
+      "page": 13,
+      "raw": "5.97E+00"
+    },
+    "modules.A1A3": {
+      "value": 275,
+      "page": 13,
+      "raw": "2.75E+02"
+    },
+    "modules.C1": {
+      "value": 4.23,
+      "page": 14,
+      "raw": "4.23E+00"
+    },
+    "modules.C2": {
+      "value": 12.0,
+      "page": 12,
+      "raw": "12"
+    },
+    "modules.C3": {
+      "value": 6.82,
+      "page": 14,
+      "raw": "6.82E+00"
+    },
+    "modules.C4": {
+      "value": 4.17,
+      "page": 14,
+      "raw": "4.17E+00"
+    },
+    "modules.D": {
+      "value": -12.2,
+      "page": 14,
+      "raw": "-1.22E+01"
+    },
+    "split.fossil": {
+      "value": 274,
+      "page": 13,
+      "raw": "2.74E+02"
+    },
+    "split.biogenic": {
+      "value": 0.156,
+      "page": 13,
+      "raw": "1.56E-01"
+    },
+    "split.luluc": {
+      "value": 0.0133,
+      "page": 13,
+      "raw": "1.33E-02"
+    },
+    "alt.value": {
+      "value": 273,
+      "page": 17,
+      "raw": "2.73E+02"
+    },
+    "extras.total_energy_use_kwh_a1a3": {
+      "value": 531,
+      "page": 4,
+      "raw": "531"
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": 5.57,
+      "page": 4,
+      "raw": "5.57E+00"
+    }
+  }
+}

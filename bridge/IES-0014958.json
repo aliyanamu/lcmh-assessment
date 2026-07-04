@@ -1,0 +1,106 @@
+{
+  "epd_id": "IES-0014958",
+  "source_file": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2315,
+      "page": 18,
+      "raw": "2315"
+    },
+    "modules.A1A3": {
+      "value": 141,
+      "page": 19,
+      "raw": "1.41E+02"
+    },
+    "modules.A4": {
+      "value": 4.95,
+      "page": 19,
+      "raw": "4.95E+00"
+    },
+    "modules.A5": {
+      "value": 10.7,
+      "page": 19,
+      "raw": "1.07E+01"
+    },
+    "modules.B1": {
+      "value": -3.28,
+      "page": 19,
+      "raw": "-3.28E+00"
+    },
+    "modules.B2": {
+      "value": 0,
+      "page": 19,
+      "raw": "0.00E+00"
+    },
+    "modules.B3": {
+      "value": 0,
+      "page": 19,
+      "raw": "0.00E+00"
+    },
+    "modules.B4": {
+      "value": 0,
+      "page": 19,
+      "raw": "0.00E+00"
+    },
+    "modules.B5": {
+      "value": 0,
+      "page": 19,
+      "raw": "0.00E+00"
+    },
+    "modules.B6": {
+      "value": 0,
+      "page": 19,
+      "raw": "0.00E+00"
+    },
+    "modules.B7": {
+      "value": 0,
+      "page": 19,
+      "raw": "0.00E+00"
+    },
+    "modules.C1": {
+      "value": 9.64,
+      "page": 19,
+      "raw": "9.64E+00"
+    },
+    "modules.C2": {
+      "value": 10.1,
+      "page": 19,
+      "raw": "1.01E+01"
+    },
+    "modules.C3": {
+      "value": 4.44,
+      "page": 19,
+      "raw": "4.44E+00"
+    },
+    "modules.C4": {
+      "value": 3.19,
+      "page": 19,
+      "raw": "3.19E+00"
+    },
+    "modules.D": {
+      "value": -13.1,
+      "page": 19,
+      "raw": "-1.31E+01"
+    },
+    "split.fossil": {
+      "value": 141,
+      "page": 19,
+      "raw": "1.41E+02"
+    },
+    "split.biogenic": {
+      "value": 0.027,
+      "page": 19,
+      "raw": "2.70E-02"
+    },
+    "split.luluc": {
+      "value": 0.0217,
+      "page": 19,
+      "raw": "2.17E-02"
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": 1.78,
+      "page": 19,
+      "raw": "1.78E+00"
+    }
+  }
+}

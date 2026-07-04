@@ -32,6 +32,7 @@ These aren't trivia — each one changes what the UI must do honestly.
 | All `C1–C4`=ND | 1 | Even end-of-life isn't universal. |
 | Module `D` numeric / negative | 94 / 93 | D is a credit (negative), shown **separately**, never in an A–C sum. 1 product D=ND. |
 | `value_mpa` null (CLSM) | 7 | Strength filter needs a **"non-structural / no class"** bucket, not a drop. |
+| `test_age_days` = 28 / 56 / unstated | 10 / 1 / 84 | Strength is certified at a **test age**. `IES-20602` uses **56 d**, not the standard 28 — the same MPa at a higher day-count is not equal strength → **comparability guard**; unstated (null) ages are **never assumed 28**. |
 | `gwp_a1a3_alt` (+A1/CML) | 14 | Show as a **badged, not-comparable** note; never mixed into +A2. |
 | `gwp_a1a3_split` present | 95 | Every A1–A3 has fossil/biogenic/luluc — can show composition. |
 | No state token in `location.production` | 3 | `HUB-5210` Melbourne→VIC, `HUB-5527` Airlie Beach→QLD, `IES-0021165` "South Australia"→SA. Explicit fallback map. |
@@ -146,8 +147,12 @@ comparability(products: Product[]): Warning[]
 //  - non-structural: any value_mpa == null (CLSM) mixed with structural
 //  - catalog: any isCatalog -> "industry-average; shares one end-of-life figure + plant location"
 //  - altMethodology: any gwp_a1a3_alt present -> "an alternative +A1/CML figure exists; not comparable with +A2"
+//  - testAge: strengths certified at different / non-standard ages (56 d vs 28 d, or unstated)
+//             -> "not like-for-like; a higher-day strength isn't equal to the same number at 28 d, and an unstated age is never assumed 28"
 //  - (unit / country guards stay in code but no-op for this all-m³/all-AU corpus)
 ```
+
+> **Addendum 2026-07-04:** the `testAge` guard — the `IES-20602` 56-day finding from EXTRACTION.md made enforceable. **Built + verified.** `comparability()` warns on a real mismatch (56 d vs 28 d, or two distinct known ages) but stays quiet when every product shares the standard 28 d; unstated (null) ages are rendered *"test age not stated"* and **never assumed 28**. The compare table header now shows each product's age (`28-day strength` / `56-day strength` / `test age not stated`). Covered by `lib/lifecycle.test.ts` (3 new assertions); confirmed live on `/compare?ids=IES-20602,HUB-5943` (warns + both ages) and `HUB-5943,HUB-5991` (no false positive).
 
 **Render rules enforced in `CompareTable`:**
 - ND → "Not declared" (muted), never `0`/blank, never summed.
@@ -178,6 +183,7 @@ comparability(products: Product[]): Warning[]
 | 13 | Filters yield no matches | "No products match these filters" empty state. |
 | 14 | Comparing many products | Table scrolls horizontally; no hard cap. |
 | 15 | Compare mixes strength classes / catalog + single | `Warnings` banner lists every applicable comparability caveat. |
+| 16 | Compare a 56-day strength (`IES-20602`) with 28-day ones (HUB) | `Warnings` flags the test ages aren't like-for-like; **unstated (null) ages shown as unstated, never assumed 28**. |
 
 ---
 
@@ -204,7 +210,7 @@ comparability(products: Product[]): Warning[]
 - [ ] `incl` → A1/A2/A3 shown as combined A1–A3, sub-modules "included", never zero/missing.
 - [ ] Module `D` separate, signed, never in an A–C subtotal.
 - [ ] No single "complete life-cycle total" implied; any A–C subtotal names its excluded ND stages.
-- [ ] Comparability warnings fire for: different strength class, non-structural (CLSM) vs structural, catalog/industry-average, +A1/CML alt present.
+- [ ] Comparability warnings fire for: different strength class, non-structural (CLSM) vs structural, catalog/industry-average, +A1/CML alt present, **different / non-standard strength test age (56 d vs 28 d, or unstated)**.
 
 **Non-functional**
 - [ ] Builds & deploys on Vercel (Node 18+). No DB. Minimal deps.

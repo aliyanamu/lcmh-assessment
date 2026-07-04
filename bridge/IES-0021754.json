@@ -1,0 +1,66 @@
+{
+  "epd_id": "IES-0021754",
+  "source_file": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2270,
+      "page": 22,
+      "raw": "2.27E+03"
+    },
+    "modules.A1A3": {
+      "value": 140,
+      "page": 18,
+      "raw": "1.40E+02"
+    },
+    "modules.C1": {
+      "value": 12.0,
+      "page": 18,
+      "raw": "1.20E+01"
+    },
+    "modules.C2": {
+      "value": 14.5,
+      "page": 18,
+      "raw": "1.45E+01"
+    },
+    "modules.C3": {
+      "value": 8.03,
+      "page": 18,
+      "raw": "8.03E+00"
+    },
+    "modules.C4": {
+      "value": 0.861,
+      "page": 18,
+      "raw": "8.61E-01"
+    },
+    "modules.D": {
+      "value": -9.79,
+      "page": 18,
+      "raw": "-9.79E+00"
+    },
+    "split.fossil": {
+      "value": 140,
+      "page": 18,
+      "raw": "1.40E+02"
+    },
+    "split.biogenic": {
+      "value": -0.24,
+      "page": 18,
+      "raw": "-2.40E-01"
+    },
+    "split.luluc": {
+      "value": 0.0119,
+      "page": 18,
+      "raw": "1.19E-02"
+    },
+    "alt.value": {
+      "value": 139,
+      "page": 20,
+      "raw": "1.39E+02"
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": 2.02,
+      "page": 19,
+      "raw": "2.02E+00"
+    }
+  }
+}

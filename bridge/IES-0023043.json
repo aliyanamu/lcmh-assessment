@@ -1,0 +1,56 @@
+{
+  "epd_id": "IES-0023043",
+  "source_file": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2373,
+      "page": 8,
+      "raw": "2373"
+    },
+    "modules.A1A3": {
+      "value": 134,
+      "page": 11,
+      "raw": "1.34E+02"
+    },
+    "modules.C1": {
+      "value": 5.67,
+      "page": 11,
+      "raw": "5.67E+00"
+    },
+    "modules.C2": {
+      "value": 21.6,
+      "page": 11,
+      "raw": "2.16E+01"
+    },
+    "modules.C3": {
+      "value": 12.5,
+      "page": 11,
+      "raw": "1.25E+01"
+    },
+    "modules.C4": {
+      "value": 2.29,
+      "page": 11,
+      "raw": "2.29E+00"
+    },
+    "modules.D": {
+      "value": -1.61,
+      "page": 11,
+      "raw": "‐1.61E+00"
+    },
+    "split.fossil": {
+      "value": 134,
+      "page": 11,
+      "raw": "1.34E+02"
+    },
+    "split.biogenic": {
+      "value": 0,
+      "page": 11,
+      "raw": "0.00E+00"
+    },
+    "split.luluc": {
+      "value": 0.0228,
+      "page": 11,
+      "raw": "2.28E‐02"
+    }
+  }
+}

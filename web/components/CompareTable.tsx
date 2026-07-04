@@ -56,6 +56,13 @@ export default function CompareTable({ products }: { products: Product[] }) {
                 <div className="pmeta">
                   {strengthLabel(p.mpa)} · {p.state}
                 </div>
+                {p.mpa != null && (
+                  <div className="pmeta">
+                    {p.compressive_strength.test_age_days != null
+                      ? `${p.compressive_strength.test_age_days}-day strength`
+                      : "test age not stated"}
+                  </div>
+                )}
                 {p.isCatalog && <div className="badge">catalog / industry-avg</div>}
               </th>
             ))}

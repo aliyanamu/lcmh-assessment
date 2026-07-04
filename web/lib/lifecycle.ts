@@ -140,6 +140,23 @@ export function comparability(products: Product[]): Warning[] {
     });
   }
 
+  // Compressive strength is certified at a test age. A strength measured at a later age isn't
+  // equal to the same MPa at the standard 28 days, and an unstated age is never assumed to be 28.
+  const ages = products
+    .filter((p) => p.mpa != null) // only structural products carry a meaningful strength/age
+    .map((p) => p.compressive_strength?.test_age_days ?? null);
+  const knownAges = [...new Set(ages.filter((a): a is number => a != null))].sort((a, b) => a - b);
+  if (knownAges.some((a) => a !== 28) || knownAges.length > 1) {
+    const shown = knownAges.map((a) => `${a} d`).join(", ");
+    const someUnstated = ages.some((a) => a == null);
+    w.push({
+      level: "warn",
+      text: `Compressive strengths are certified at different test ages (${shown}${
+        someUnstated ? ", plus some unstated" : ""
+      }). A strength measured at a later age (e.g. 56 days) isn't equal to the same MPa at the standard 28 days, and an unstated age is never assumed to be 28.`,
+    });
+  }
+
   const catalog = products.filter((p) => p.isCatalog).length;
   if (catalog > 0) {
     w.push({

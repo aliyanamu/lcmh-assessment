@@ -25,7 +25,7 @@ Turn 20 concrete EPD PDFs (in `source-pdfs/`) into structured, provenance-tracea
 Grounded against **2 real EPD International/IES PDFs read in full** (Holcim EcoPact `IES-0029695`, Greencrete `IES-0023043`) plus sourced numeric research. Three findings that change the schema/checks:
 
 1. **Product stage is combined-only in EPD International docs.** Both IES EPDs report **A1–A3 as a single figure with no A1/A2/A3 split** — yet the boundary table marks A1/A2/A3 individually *declared*. Recording a missing A1 as `"ND"` would be a **lie** (it's declared, just not disaggregated) — exactly the "a not-declared stage is not a zero" trap. → the module vocabulary gains a third state **`"incl"`** (declared, rolled into A1A3). This is the "stage-by-stage, not one number" honesty the task tests: for ~half the corpus the app shows the product stage as one honest block, `ND` only where a stage is genuinely undeclared. **Flag for Part 2:** the comparison UI must render an aggregated A1–A3 without implying A1/A2/A3 are zero or missing.
-2. **`test_age_days` is absent** from both IES docs → nullable, never assumed 28.
+2. **`test_age_days` is absent** from both *scouting* IES docs → nullable, never assumed 28. *(Corpus-wide this holds except `IES-20602`, which carries a 56-day age inferred from its mix code `@56D` — the nullable field earns its keep, and unstated ages are still never assumed 28.)*
 3. **Numeric checks are grounded, not guessed** — real bands + tolerances + citations now in Verification (one source cross-checked the A1+A2+A3 identity against **39,213 real concrete EPD rows**).
 
 **Multi-product risk dropped:** both validated docs were single-product, so `products[]` is a contingency, not an expected case. Both carried real source defects (unit typos, **mixed `,`/`.` decimal separators**, `EPD-IES-23043` vs `0023043` id padding, duplicated legend rows, GWP-GHG mistakenly equal to GWP-total) — reaffirming *trust no single field*. (Phase 1's IES structure scouting is now effectively done; it just formalizes the 3 JSONs + locks schema v1.1.)
@@ -98,7 +98,7 @@ EXTRACTION.md          # ~400-word reasoning doc (root)
 
 **Schema updates from the validation batch (v1 → v1.1):**
 - **Module third state `"incl"`** — for A1/A2/A3 when the EPD gives only a combined A1A3. `A1A3` is always populated (given directly, or summed when a split exists). `"incl"` ≠ `"ND"` ≠ `0`.
-- **`compressive_strength.test_age_days` nullable** — not stated in EPD International docs.
+- **`compressive_strength.test_age_days` nullable** — not stated in most EPD International docs (exception: `IES-20602`, a 56-day age inferred from its mix code); never assumed 28.
 - **`program_operator` + optional `regional_operator`** — IES docs have two parties (EPD International AB + EPD Australasia).
 - **`verification.type` enum** = `external | process-certification | internal`; `verifier` may be a person *or* a certifying body (Holcim EcoPact = company-wide process certification, no per-EPD verifier).
 - **`gwp_a1a3_alt` optional** — populate only when a genuine alternate-methodology table exists (EPD Hub & Holcim have a +A1/CML table; Greencrete does not). Do **not** shoehorn GWP-GHG into it.

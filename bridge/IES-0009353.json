@@ -1,0 +1,3806 @@
+{
+  "epd_id": "IES-0009353",
+  "source_file": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+  "figures": {
+    "products[0].declared_unit.mass_kg": {
+      "value": 2290,
+      "page": null,
+      "raw": null
+    },
+    "products[0].modules.A1A3": {
+      "value": 139,
+      "page": 19,
+      "raw": "139"
+    },
+    "products[0].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[0].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[0].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[0].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[0].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[0].split.fossil": {
+      "value": 137,
+      "page": 19,
+      "raw": "137"
+    },
+    "products[0].split.biogenic": {
+      "value": 1.7,
+      "page": 19,
+      "raw": "1.70"
+    },
+    "products[0].split.luluc": {
+      "value": 0.00927,
+      "page": 19,
+      "raw": "0.00927"
+    },
+    "products[1].declared_unit.mass_kg": {
+      "value": 2030,
+      "page": null,
+      "raw": null
+    },
+    "products[1].modules.A1A3": {
+      "value": 155,
+      "page": 19,
+      "raw": "0.0155"
+    },
+    "products[1].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[1].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[1].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[1].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[1].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[1].split.fossil": {
+      "value": 154,
+      "page": 19,
+      "raw": "154"
+    },
+    "products[1].split.biogenic": {
+      "value": 1.81,
+      "page": 19,
+      "raw": "1.81"
+    },
+    "products[1].split.luluc": {
+      "value": 0.0104,
+      "page": 19,
+      "raw": "0.0104"
+    },
+    "products[2].declared_unit.mass_kg": {
+      "value": 2090,
+      "page": null,
+      "raw": null
+    },
+    "products[2].modules.A1A3": {
+      "value": 106,
+      "page": 19,
+      "raw": "0.0106"
+    },
+    "products[2].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[2].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[2].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[2].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[2].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[2].split.fossil": {
+      "value": 105,
+      "page": 19,
+      "raw": "10.5"
+    },
+    "products[2].split.biogenic": {
+      "value": 1.45,
+      "page": 19,
+      "raw": "1.45"
+    },
+    "products[2].split.luluc": {
+      "value": 0.00778,
+      "page": 19,
+      "raw": "0.00778"
+    },
+    "products[3].declared_unit.mass_kg": {
+      "value": 2290,
+      "page": null,
+      "raw": null
+    },
+    "products[3].modules.A1A3": {
+      "value": 193,
+      "page": 19,
+      "raw": "193"
+    },
+    "products[3].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[3].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[3].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[3].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[3].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[3].split.fossil": {
+      "value": 190,
+      "page": 19,
+      "raw": "190"
+    },
+    "products[3].split.biogenic": {
+      "value": 3.14,
+      "page": 19,
+      "raw": "3.14"
+    },
+    "products[3].split.luluc": {
+      "value": 0.00952,
+      "page": 19,
+      "raw": "0.00952"
+    },
+    "products[4].declared_unit.mass_kg": {
+      "value": 2280,
+      "page": null,
+      "raw": null
+    },
+    "products[4].modules.A1A3": {
+      "value": 199,
+      "page": 19,
+      "raw": "199"
+    },
+    "products[4].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[4].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[4].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[4].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[4].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[4].split.fossil": {
+      "value": 196,
+      "page": 19,
+      "raw": "196"
+    },
+    "products[4].split.biogenic": {
+      "value": 3.22,
+      "page": 19,
+      "raw": "3.22"
+    },
+    "products[4].split.luluc": {
+      "value": 0.00987,
+      "page": 19,
+      "raw": "0.00987"
+    },
+    "products[5].declared_unit.mass_kg": {
+      "value": 2290,
+      "page": null,
+      "raw": null
+    },
+    "products[5].modules.A1A3": {
+      "value": 230,
+      "page": 19,
+      "raw": "230"
+    },
+    "products[5].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[5].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[5].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[5].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[5].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[5].split.fossil": {
+      "value": 226,
+      "page": 19,
+      "raw": "226"
+    },
+    "products[5].split.biogenic": {
+      "value": 3.64,
+      "page": 19,
+      "raw": "3.64"
+    },
+    "products[5].split.luluc": {
+      "value": 0.0108,
+      "page": 19,
+      "raw": "0.0108"
+    },
+    "products[6].declared_unit.mass_kg": {
+      "value": 2290,
+      "page": null,
+      "raw": null
+    },
+    "products[6].modules.A1A3": {
+      "value": 238,
+      "page": 19,
+      "raw": "238"
+    },
+    "products[6].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[6].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[6].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[6].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[6].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[6].split.fossil": {
+      "value": 234,
+      "page": 19,
+      "raw": "234"
+    },
+    "products[6].split.biogenic": {
+      "value": 3.75,
+      "page": 19,
+      "raw": "3.75"
+    },
+    "products[6].split.luluc": {
+      "value": 0.0111,
+      "page": 19,
+      "raw": "0.0111"
+    },
+    "products[7].declared_unit.mass_kg": {
+      "value": 2308,
+      "page": null,
+      "raw": null
+    },
+    "products[7].modules.A1A3": {
+      "value": 266,
+      "page": 19,
+      "raw": "266"
+    },
+    "products[7].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[7].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[7].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[7].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[7].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[7].split.fossil": {
+      "value": 263,
+      "page": 19,
+      "raw": "263"
+    },
+    "products[7].split.biogenic": {
+      "value": 2.87,
+      "page": 19,
+      "raw": "2.87"
+    },
+    "products[7].split.luluc": {
+      "value": 0.0171,
+      "page": 19,
+      "raw": "0.0171"
+    },
+    "products[8].declared_unit.mass_kg": {
+      "value": 2308,
+      "page": null,
+      "raw": null
+    },
+    "products[8].modules.A1A3": {
+      "value": 195,
+      "page": 19,
+      "raw": "195"
+    },
+    "products[8].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[8].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[8].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[8].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[8].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[8].split.fossil": {
+      "value": 192,
+      "page": 19,
+      "raw": "192"
+    },
+    "products[8].split.biogenic": {
+      "value": 2.4,
+      "page": 19,
+      "raw": "2.40"
+    },
+    "products[8].split.luluc": {
+      "value": 0.0124,
+      "page": 19,
+      "raw": "0.0124"
+    },
+    "products[9].declared_unit.mass_kg": {
+      "value": 2297,
+      "page": null,
+      "raw": null
+    },
+    "products[9].modules.A1A3": {
+      "value": 198,
+      "page": 19,
+      "raw": "198"
+    },
+    "products[9].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[9].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[9].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[9].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[9].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[9].split.fossil": {
+      "value": 195,
+      "page": 19,
+      "raw": "195"
+    },
+    "products[9].split.biogenic": {
+      "value": 2.39,
+      "page": 19,
+      "raw": "2.39"
+    },
+    "products[9].split.luluc": {
+      "value": 0.0131,
+      "page": 19,
+      "raw": "0.0131"
+    },
+    "products[10].declared_unit.mass_kg": {
+      "value": 2293,
+      "page": null,
+      "raw": null
+    },
+    "products[10].modules.A1A3": {
+      "value": 154,
+      "page": 19,
+      "raw": "154"
+    },
+    "products[10].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[10].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[10].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[10].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[10].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[10].split.fossil": {
+      "value": 151,
+      "page": 19,
+      "raw": "151"
+    },
+    "products[10].split.biogenic": {
+      "value": 2.06,
+      "page": 19,
+      "raw": "2.06"
+    },
+    "products[10].split.luluc": {
+      "value": 0.0108,
+      "page": 19,
+      "raw": "0.0108"
+    },
+    "products[11].declared_unit.mass_kg": {
+      "value": 2280,
+      "page": null,
+      "raw": null
+    },
+    "products[11].modules.A1A3": {
+      "value": 232,
+      "page": 19,
+      "raw": "2.32"
+    },
+    "products[11].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[11].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[11].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[11].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[11].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[11].split.fossil": {
+      "value": 228,
+      "page": 19,
+      "raw": "228"
+    },
+    "products[11].split.biogenic": {
+      "value": 3.58,
+      "page": 19,
+      "raw": "3.58"
+    },
+    "products[11].split.luluc": {
+      "value": 0.0114,
+      "page": 19,
+      "raw": "0.0114"
+    },
+    "products[12].declared_unit.mass_kg": {
+      "value": 2312,
+      "page": null,
+      "raw": null
+    },
+    "products[12].modules.A1A3": {
+      "value": 291,
+      "page": 19,
+      "raw": "291"
+    },
+    "products[12].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[12].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[12].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[12].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[12].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[12].split.fossil": {
+      "value": 288,
+      "page": 19,
+      "raw": "288"
+    },
+    "products[12].split.biogenic": {
+      "value": 3.06,
+      "page": 19,
+      "raw": "3.06"
+    },
+    "products[12].split.luluc": {
+      "value": 0.0188,
+      "page": 19,
+      "raw": "0.0188"
+    },
+    "products[13].declared_unit.mass_kg": {
+      "value": 2310,
+      "page": null,
+      "raw": null
+    },
+    "products[13].modules.A1A3": {
+      "value": 213,
+      "page": 19,
+      "raw": "213"
+    },
+    "products[13].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[13].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[13].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[13].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[13].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[13].split.fossil": {
+      "value": 210,
+      "page": 19,
+      "raw": "210"
+    },
+    "products[13].split.biogenic": {
+      "value": 2.53,
+      "page": 19,
+      "raw": "2.53"
+    },
+    "products[13].split.luluc": {
+      "value": 0.0135,
+      "page": 19,
+      "raw": "0.0135"
+    },
+    "products[14].declared_unit.mass_kg": {
+      "value": 2311,
+      "page": null,
+      "raw": null
+    },
+    "products[14].modules.A1A3": {
+      "value": 163,
+      "page": 19,
+      "raw": "163"
+    },
+    "products[14].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[14].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[14].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[14].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[14].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[14].split.fossil": {
+      "value": 160,
+      "page": 19,
+      "raw": "160"
+    },
+    "products[14].split.biogenic": {
+      "value": 2.17,
+      "page": 19,
+      "raw": "2.17"
+    },
+    "products[14].split.luluc": {
+      "value": 0.0106,
+      "page": 19,
+      "raw": "0.0106"
+    },
+    "products[15].declared_unit.mass_kg": {
+      "value": 2301,
+      "page": null,
+      "raw": null
+    },
+    "products[15].modules.A1A3": {
+      "value": 216,
+      "page": 19,
+      "raw": "216"
+    },
+    "products[15].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[15].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[15].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[15].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[15].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[15].split.fossil": {
+      "value": 214,
+      "page": 19,
+      "raw": "214"
+    },
+    "products[15].split.biogenic": {
+      "value": 2.52,
+      "page": 19,
+      "raw": "2.52"
+    },
+    "products[15].split.luluc": {
+      "value": 0.0145,
+      "page": 19,
+      "raw": "0.0145"
+    },
+    "products[16].declared_unit.mass_kg": {
+      "value": 2296,
+      "page": null,
+      "raw": null
+    },
+    "products[16].modules.A1A3": {
+      "value": 168,
+      "page": 19,
+      "raw": "168"
+    },
+    "products[16].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[16].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[16].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[16].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[16].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[16].split.fossil": {
+      "value": 165,
+      "page": 19,
+      "raw": "165"
+    },
+    "products[16].split.biogenic": {
+      "value": 2.15,
+      "page": 19,
+      "raw": "2.15"
+    },
+    "products[16].split.luluc": {
+      "value": 0.0119,
+      "page": 19,
+      "raw": "0.0119"
+    },
+    "products[17].declared_unit.mass_kg": {
+      "value": 2270,
+      "page": null,
+      "raw": null
+    },
+    "products[17].modules.A1A3": {
+      "value": 200,
+      "page": 19,
+      "raw": "200"
+    },
+    "products[17].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[17].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[17].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[17].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[17].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[17].split.fossil": {
+      "value": 198,
+      "page": 19,
+      "raw": "198"
+    },
+    "products[17].split.biogenic": {
+      "value": 2.13,
+      "page": 19,
+      "raw": "2.13"
+    },
+    "products[17].split.luluc": {
+      "value": 0.0136,
+      "page": 19,
+      "raw": "0.0136"
+    },
+    "products[18].declared_unit.mass_kg": {
+      "value": 2270,
+      "page": null,
+      "raw": null
+    },
+    "products[18].modules.A1A3": {
+      "value": 187,
+      "page": 19,
+      "raw": "187"
+    },
+    "products[18].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[18].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[18].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[18].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[18].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[18].split.fossil": {
+      "value": 184,
+      "page": 19,
+      "raw": "184"
+    },
+    "products[18].split.biogenic": {
+      "value": 2.97,
+      "page": 19,
+      "raw": "2.97"
+    },
+    "products[18].split.luluc": {
+      "value": 0.01,
+      "page": 19,
+      "raw": "0.0100"
+    },
+    "products[19].declared_unit.mass_kg": {
+      "value": 2351,
+      "page": null,
+      "raw": null
+    },
+    "products[19].modules.A1A3": {
+      "value": 334,
+      "page": 19,
+      "raw": "334"
+    },
+    "products[19].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[19].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[19].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[19].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[19].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[19].split.fossil": {
+      "value": 330,
+      "page": 19,
+      "raw": "330"
+    },
+    "products[19].split.biogenic": {
+      "value": 3.39,
+      "page": 19,
+      "raw": "3.39"
+    },
+    "products[19].split.luluc": {
+      "value": 0.0216,
+      "page": 19,
+      "raw": "0.0216"
+    },
+    "products[20].declared_unit.mass_kg": {
+      "value": 2347,
+      "page": null,
+      "raw": null
+    },
+    "products[20].modules.A1A3": {
+      "value": 242,
+      "page": 19,
+      "raw": "242"
+    },
+    "products[20].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[20].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[20].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[20].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[20].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[20].split.fossil": {
+      "value": 240,
+      "page": 19,
+      "raw": "240"
+    },
+    "products[20].split.biogenic": {
+      "value": 2.77,
+      "page": 19,
+      "raw": "2.77"
+    },
+    "products[20].split.luluc": {
+      "value": 0.0155,
+      "page": 19,
+      "raw": "0.0155"
+    },
+    "products[21].declared_unit.mass_kg": {
+      "value": 2346,
+      "page": null,
+      "raw": null
+    },
+    "products[21].modules.A1A3": {
+      "value": 184,
+      "page": 19,
+      "raw": "184"
+    },
+    "products[21].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[21].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[21].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[21].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[21].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[21].split.fossil": {
+      "value": 182,
+      "page": 19,
+      "raw": "182"
+    },
+    "products[21].split.biogenic": {
+      "value": 2.35,
+      "page": 19,
+      "raw": "2.35"
+    },
+    "products[21].split.luluc": {
+      "value": 0.0121,
+      "page": 19,
+      "raw": "0.0121"
+    },
+    "products[22].declared_unit.mass_kg": {
+      "value": 2338,
+      "page": null,
+      "raw": null
+    },
+    "products[22].modules.A1A3": {
+      "value": 246,
+      "page": 19,
+      "raw": "246"
+    },
+    "products[22].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[22].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[22].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[22].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[22].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[22].split.fossil": {
+      "value": 244,
+      "page": 19,
+      "raw": "244"
+    },
+    "products[22].split.biogenic": {
+      "value": 2.76,
+      "page": 19,
+      "raw": "2.76"
+    },
+    "products[22].split.luluc": {
+      "value": 0.0165,
+      "page": 19,
+      "raw": "0.0165"
+    },
+    "products[23].declared_unit.mass_kg": {
+      "value": 2332,
+      "page": null,
+      "raw": null
+    },
+    "products[23].modules.A1A3": {
+      "value": 190,
+      "page": 19,
+      "raw": "190"
+    },
+    "products[23].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[23].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[23].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[23].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[23].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[23].split.fossil": {
+      "value": 188,
+      "page": 19,
+      "raw": "188"
+    },
+    "products[23].split.biogenic": {
+      "value": 2.34,
+      "page": 19,
+      "raw": "2.34"
+    },
+    "products[23].split.luluc": {
+      "value": 0.0136,
+      "page": 19,
+      "raw": "0.0136"
+    },
+    "products[24].declared_unit.mass_kg": {
+      "value": 2300,
+      "page": null,
+      "raw": null
+    },
+    "products[24].modules.A1A3": {
+      "value": 219,
+      "page": 19,
+      "raw": "219"
+    },
+    "products[24].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[24].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[24].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[24].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[24].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[24].split.fossil": {
+      "value": 216,
+      "page": 19,
+      "raw": "216"
+    },
+    "products[24].split.biogenic": {
+      "value": 2.27,
+      "page": 19,
+      "raw": "2.27"
+    },
+    "products[24].split.luluc": {
+      "value": 0.0153,
+      "page": 19,
+      "raw": "0.0153"
+    },
+    "products[25].declared_unit.mass_kg": {
+      "value": 2300,
+      "page": null,
+      "raw": null
+    },
+    "products[25].modules.A1A3": {
+      "value": 153,
+      "page": 19,
+      "raw": "153"
+    },
+    "products[25].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[25].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[25].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[25].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[25].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[25].split.fossil": {
+      "value": 151,
+      "page": 19,
+      "raw": "151"
+    },
+    "products[25].split.biogenic": {
+      "value": 1.79,
+      "page": 19,
+      "raw": "1.79"
+    },
+    "products[25].split.luluc": {
+      "value": 0.0117,
+      "page": 19,
+      "raw": "0.0117"
+    },
+    "products[26].declared_unit.mass_kg": {
+      "value": 2340,
+      "page": null,
+      "raw": null
+    },
+    "products[26].modules.A1A3": {
+      "value": 160,
+      "page": 19,
+      "raw": "160"
+    },
+    "products[26].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[26].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[26].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[26].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[26].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[26].split.fossil": {
+      "value": 158,
+      "page": 19,
+      "raw": "0.158"
+    },
+    "products[26].split.biogenic": {
+      "value": 1.86,
+      "page": 19,
+      "raw": "1.86"
+    },
+    "products[26].split.luluc": {
+      "value": 0.0118,
+      "page": 19,
+      "raw": "0.0118"
+    },
+    "products[27].declared_unit.mass_kg": {
+      "value": 2230,
+      "page": null,
+      "raw": null
+    },
+    "products[27].modules.A1A3": {
+      "value": 216,
+      "page": 19,
+      "raw": "216"
+    },
+    "products[27].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[27].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[27].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[27].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[27].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[27].split.fossil": {
+      "value": 214,
+      "page": 19,
+      "raw": "214"
+    },
+    "products[27].split.biogenic": {
+      "value": 2.24,
+      "page": 19,
+      "raw": "2.24"
+    },
+    "products[27].split.luluc": {
+      "value": 0.0152,
+      "page": 19,
+      "raw": "0.0152"
+    },
+    "products[28].declared_unit.mass_kg": {
+      "value": 2320,
+      "page": null,
+      "raw": null
+    },
+    "products[28].modules.A1A3": {
+      "value": 231,
+      "page": 19,
+      "raw": "231"
+    },
+    "products[28].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[28].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[28].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[28].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[28].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[28].split.fossil": {
+      "value": 228,
+      "page": 19,
+      "raw": "228"
+    },
+    "products[28].split.biogenic": {
+      "value": 3.54,
+      "page": 19,
+      "raw": "3.54"
+    },
+    "products[28].split.luluc": {
+      "value": 0.0122,
+      "page": 19,
+      "raw": "0.0122"
+    },
+    "products[29].declared_unit.mass_kg": {
+      "value": 2356,
+      "page": null,
+      "raw": null
+    },
+    "products[29].modules.A1A3": {
+      "value": 402,
+      "page": 19,
+      "raw": "402"
+    },
+    "products[29].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[29].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[29].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[29].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[29].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[29].split.fossil": {
+      "value": 398,
+      "page": 19,
+      "raw": "398"
+    },
+    "products[29].split.biogenic": {
+      "value": 3.87,
+      "page": 19,
+      "raw": "3.87"
+    },
+    "products[29].split.luluc": {
+      "value": 0.0261,
+      "page": 19,
+      "raw": "0.0261"
+    },
+    "products[30].declared_unit.mass_kg": {
+      "value": 2347,
+      "page": null,
+      "raw": null
+    },
+    "products[30].modules.A1A3": {
+      "value": 290,
+      "page": 19,
+      "raw": "290"
+    },
+    "products[30].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[30].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[30].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[30].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[30].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[30].split.fossil": {
+      "value": 287,
+      "page": 19,
+      "raw": "287"
+    },
+    "products[30].split.biogenic": {
+      "value": 3.12,
+      "page": 19,
+      "raw": "3.12"
+    },
+    "products[30].split.luluc": {
+      "value": 0.0186,
+      "page": 19,
+      "raw": "0.0186"
+    },
+    "products[31].declared_unit.mass_kg": {
+      "value": 2343,
+      "page": null,
+      "raw": null
+    },
+    "products[31].modules.A1A3": {
+      "value": 218,
+      "page": 19,
+      "raw": "218"
+    },
+    "products[31].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[31].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[31].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[31].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[31].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[31].split.fossil": {
+      "value": 216,
+      "page": 19,
+      "raw": "216"
+    },
+    "products[31].split.biogenic": {
+      "value": 2.61,
+      "page": 19,
+      "raw": "2.61"
+    },
+    "products[31].split.luluc": {
+      "value": 0.0144,
+      "page": 19,
+      "raw": "0.0144"
+    },
+    "products[32].declared_unit.mass_kg": {
+      "value": 2339,
+      "page": null,
+      "raw": null
+    },
+    "products[32].modules.A1A3": {
+      "value": 294,
+      "page": 19,
+      "raw": "294"
+    },
+    "products[32].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[32].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[32].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[32].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[32].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[32].split.fossil": {
+      "value": 291,
+      "page": 19,
+      "raw": "291"
+    },
+    "products[32].split.biogenic": {
+      "value": 3.11,
+      "page": 19,
+      "raw": "3.11"
+    },
+    "products[32].split.luluc": {
+      "value": 0.0198,
+      "page": 19,
+      "raw": "0.0198"
+    },
+    "products[33].declared_unit.mass_kg": {
+      "value": 2332,
+      "page": null,
+      "raw": null
+    },
+    "products[33].modules.A1A3": {
+      "value": 225,
+      "page": 19,
+      "raw": "225"
+    },
+    "products[33].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[33].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[33].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[33].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[33].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[33].split.fossil": {
+      "value": 222,
+      "page": 19,
+      "raw": "222"
+    },
+    "products[33].split.biogenic": {
+      "value": 2.59,
+      "page": 19,
+      "raw": "2.59"
+    },
+    "products[33].split.luluc": {
+      "value": 0.0161,
+      "page": 19,
+      "raw": "0.0161"
+    },
+    "products[34].declared_unit.mass_kg": {
+      "value": 2390,
+      "page": null,
+      "raw": null
+    },
+    "products[34].modules.A1A3": {
+      "value": 305,
+      "page": 19,
+      "raw": "305"
+    },
+    "products[34].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[34].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[34].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[34].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[34].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[34].split.fossil": {
+      "value": 301,
+      "page": 19,
+      "raw": "301"
+    },
+    "products[34].split.biogenic": {
+      "value": 4.47,
+      "page": 19,
+      "raw": "4.47"
+    },
+    "products[34].split.luluc": {
+      "value": 0.0139,
+      "page": 19,
+      "raw": "0.0139"
+    },
+    "products[35].declared_unit.mass_kg": {
+      "value": 2340,
+      "page": null,
+      "raw": null
+    },
+    "products[35].modules.A1A3": {
+      "value": 267,
+      "page": 20,
+      "raw": "0.267"
+    },
+    "products[35].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[35].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[35].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[35].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[35].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[35].split.fossil": {
+      "value": 263,
+      "page": 20,
+      "raw": "263"
+    },
+    "products[35].split.biogenic": {
+      "value": 3.91,
+      "page": 20,
+      "raw": "3.91"
+    },
+    "products[35].split.luluc": {
+      "value": 0.0145,
+      "page": 20,
+      "raw": "0.0145"
+    },
+    "products[36].declared_unit.mass_kg": {
+      "value": 2310,
+      "page": null,
+      "raw": null
+    },
+    "products[36].modules.A1A3": {
+      "value": 270,
+      "page": 20,
+      "raw": "270"
+    },
+    "products[36].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[36].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[36].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[36].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[36].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[36].split.fossil": {
+      "value": 266,
+      "page": 20,
+      "raw": "266"
+    },
+    "products[36].split.biogenic": {
+      "value": 4.05,
+      "page": 20,
+      "raw": "4.05"
+    },
+    "products[36].split.luluc": {
+      "value": 0.0127,
+      "page": 20,
+      "raw": "0.0127"
+    },
+    "products[37].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[37].modules.A1A3": {
+      "value": 227,
+      "page": 20,
+      "raw": "227"
+    },
+    "products[37].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[37].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[37].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[37].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[37].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[37].split.fossil": {
+      "value": 224,
+      "page": 20,
+      "raw": "224"
+    },
+    "products[37].split.biogenic": {
+      "value": 3.34,
+      "page": 20,
+      "raw": "3.34"
+    },
+    "products[37].split.luluc": {
+      "value": 0.0135,
+      "page": 20,
+      "raw": "0.0135"
+    },
+    "products[38].declared_unit.mass_kg": {
+      "value": 2330,
+      "page": null,
+      "raw": null
+    },
+    "products[38].modules.A1A3": {
+      "value": 215,
+      "page": 20,
+      "raw": "215"
+    },
+    "products[38].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[38].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[38].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[38].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[38].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[38].split.fossil": {
+      "value": 212,
+      "page": 20,
+      "raw": "212"
+    },
+    "products[38].split.biogenic": {
+      "value": 3.19,
+      "page": 20,
+      "raw": "3.19"
+    },
+    "products[38].split.luluc": {
+      "value": 0.0126,
+      "page": 20,
+      "raw": "0.0126"
+    },
+    "products[39].declared_unit.mass_kg": {
+      "value": 2360,
+      "page": null,
+      "raw": null
+    },
+    "products[39].modules.A1A3": {
+      "value": 231,
+      "page": 20,
+      "raw": "2.31"
+    },
+    "products[39].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[39].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[39].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[39].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[39].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[39].split.fossil": {
+      "value": 228,
+      "page": 20,
+      "raw": "228"
+    },
+    "products[39].split.biogenic": {
+      "value": 3.39,
+      "page": 20,
+      "raw": "3.39"
+    },
+    "products[39].split.luluc": {
+      "value": 0.0134,
+      "page": 20,
+      "raw": "0.0134"
+    },
+    "products[40].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[40].modules.A1A3": {
+      "value": 229,
+      "page": 20,
+      "raw": "0.229"
+    },
+    "products[40].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[40].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[40].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[40].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[40].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[40].split.fossil": {
+      "value": 225,
+      "page": 20,
+      "raw": "0.0225"
+    },
+    "products[40].split.biogenic": {
+      "value": 3.36,
+      "page": 20,
+      "raw": "3.36"
+    },
+    "products[40].split.luluc": {
+      "value": 0.0135,
+      "page": 20,
+      "raw": "0.0135"
+    },
+    "products[41].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[41].modules.A1A3": {
+      "value": 226,
+      "page": 20,
+      "raw": "226"
+    },
+    "products[41].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[41].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[41].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[41].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[41].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[41].split.fossil": {
+      "value": 223,
+      "page": 20,
+      "raw": "223"
+    },
+    "products[41].split.biogenic": {
+      "value": 3.38,
+      "page": 20,
+      "raw": "3.38"
+    },
+    "products[41].split.luluc": {
+      "value": 0.0123,
+      "page": 20,
+      "raw": "0.0123"
+    },
+    "products[42].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[42].modules.A1A3": {
+      "value": 229,
+      "page": 20,
+      "raw": "0.229"
+    },
+    "products[42].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[42].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[42].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[42].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[42].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[42].split.fossil": {
+      "value": 226,
+      "page": 20,
+      "raw": "226"
+    },
+    "products[42].split.biogenic": {
+      "value": 3.37,
+      "page": 20,
+      "raw": "3.37"
+    },
+    "products[42].split.luluc": {
+      "value": 0.0135,
+      "page": 20,
+      "raw": "0.0135"
+    },
+    "products[43].declared_unit.mass_kg": {
+      "value": 2360,
+      "page": null,
+      "raw": null
+    },
+    "products[43].modules.A1A3": {
+      "value": 175,
+      "page": 20,
+      "raw": "175"
+    },
+    "products[43].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[43].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[43].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[43].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[43].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[43].split.fossil": {
+      "value": 172,
+      "page": 20,
+      "raw": "172"
+    },
+    "products[43].split.biogenic": {
+      "value": 2.67,
+      "page": 20,
+      "raw": "2.67"
+    },
+    "products[43].split.luluc": {
+      "value": 0.0103,
+      "page": 20,
+      "raw": "0.0103"
+    },
+    "products[44].declared_unit.mass_kg": {
+      "value": 2340,
+      "page": null,
+      "raw": null
+    },
+    "products[44].modules.A1A3": {
+      "value": 173,
+      "page": 20,
+      "raw": "1.73"
+    },
+    "products[44].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[44].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[44].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[44].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[44].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[44].split.fossil": {
+      "value": 170,
+      "page": 20,
+      "raw": "170"
+    },
+    "products[44].split.biogenic": {
+      "value": 2.64,
+      "page": 20,
+      "raw": "2.64"
+    },
+    "products[44].split.luluc": {
+      "value": 0.0103,
+      "page": 20,
+      "raw": "0.0103"
+    },
+    "products[45].declared_unit.mass_kg": {
+      "value": 2350,
+      "page": null,
+      "raw": null
+    },
+    "products[45].modules.A1A3": {
+      "value": 188,
+      "page": 20,
+      "raw": "188"
+    },
+    "products[45].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[45].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[45].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[45].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[45].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[45].split.fossil": {
+      "value": 186,
+      "page": 20,
+      "raw": "186"
+    },
+    "products[45].split.biogenic": {
+      "value": 1.99,
+      "page": 20,
+      "raw": "1.99"
+    },
+    "products[45].split.luluc": {
+      "value": 0.0147,
+      "page": 20,
+      "raw": "0.0147"
+    },
+    "products[46].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[46].modules.A1A3": {
+      "value": 290,
+      "page": 20,
+      "raw": "0.290"
+    },
+    "products[46].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[46].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[46].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[46].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[46].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[46].split.fossil": {
+      "value": 287,
+      "page": 20,
+      "raw": "2.87"
+    },
+    "products[46].split.biogenic": {
+      "value": 2.74,
+      "page": 20,
+      "raw": "2.74"
+    },
+    "products[46].split.luluc": {
+      "value": 0.0197,
+      "page": 20,
+      "raw": "0.0197"
+    },
+    "products[47].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[47].modules.A1A3": {
+      "value": 198,
+      "page": 20,
+      "raw": "198"
+    },
+    "products[47].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[47].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[47].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[47].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[47].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[47].split.fossil": {
+      "value": 196,
+      "page": 20,
+      "raw": "196"
+    },
+    "products[47].split.biogenic": {
+      "value": 2.05,
+      "page": 20,
+      "raw": "2.05"
+    },
+    "products[47].split.luluc": {
+      "value": 0.0151,
+      "page": 20,
+      "raw": "0.0151"
+    },
+    "products[48].declared_unit.mass_kg": {
+      "value": 2430,
+      "page": null,
+      "raw": null
+    },
+    "products[48].modules.A1A3": {
+      "value": 287,
+      "page": 20,
+      "raw": "2.87"
+    },
+    "products[48].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[48].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[48].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[48].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[48].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[48].split.fossil": {
+      "value": 285,
+      "page": 20,
+      "raw": "285"
+    },
+    "products[48].split.biogenic": {
+      "value": 2.74,
+      "page": 20,
+      "raw": "2.74"
+    },
+    "products[48].split.luluc": {
+      "value": 0.0199,
+      "page": 20,
+      "raw": "0.0199"
+    },
+    "products[49].declared_unit.mass_kg": {
+      "value": 2250,
+      "page": null,
+      "raw": null
+    },
+    "products[49].modules.A1A3": {
+      "value": 187,
+      "page": 20,
+      "raw": "187"
+    },
+    "products[49].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[49].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[49].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[49].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[49].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[49].split.fossil": {
+      "value": 185,
+      "page": 20,
+      "raw": "0.0185"
+    },
+    "products[49].split.biogenic": {
+      "value": 1.99,
+      "page": 20,
+      "raw": "1.99"
+    },
+    "products[49].split.luluc": {
+      "value": 0.0146,
+      "page": 20,
+      "raw": "0.0146"
+    },
+    "products[50].declared_unit.mass_kg": {
+      "value": 2260,
+      "page": null,
+      "raw": null
+    },
+    "products[50].modules.A1A3": {
+      "value": 207,
+      "page": 20,
+      "raw": "207"
+    },
+    "products[50].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[50].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[50].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[50].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[50].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[50].split.fossil": {
+      "value": 205,
+      "page": 20,
+      "raw": "205"
+    },
+    "products[50].split.biogenic": {
+      "value": 2.25,
+      "page": 20,
+      "raw": "2.25"
+    },
+    "products[50].split.luluc": {
+      "value": 0.0146,
+      "page": 20,
+      "raw": "0.0146"
+    },
+    "products[51].declared_unit.mass_kg": {
+      "value": 2367,
+      "page": null,
+      "raw": null
+    },
+    "products[51].modules.A1A3": {
+      "value": 495,
+      "page": 19,
+      "raw": "0.495"
+    },
+    "products[51].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[51].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[51].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[51].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[51].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[51].split.fossil": {
+      "value": 490,
+      "page": 19,
+      "raw": "490"
+    },
+    "products[51].split.biogenic": {
+      "value": 4.47,
+      "page": 19,
+      "raw": "4.47"
+    },
+    "products[51].split.luluc": {
+      "value": 0.0324,
+      "page": 19,
+      "raw": "0.0324"
+    },
+    "products[52].declared_unit.mass_kg": {
+      "value": 2353,
+      "page": null,
+      "raw": null
+    },
+    "products[52].modules.A1A3": {
+      "value": 355,
+      "page": 19,
+      "raw": "355"
+    },
+    "products[52].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[52].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[52].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[52].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[52].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[52].split.fossil": {
+      "value": 352,
+      "page": 19,
+      "raw": "352"
+    },
+    "products[52].split.biogenic": {
+      "value": 3.54,
+      "page": 19,
+      "raw": "3.54"
+    },
+    "products[52].split.luluc": {
+      "value": 0.023,
+      "page": 19,
+      "raw": "0.0230"
+    },
+    "products[53].declared_unit.mass_kg": {
+      "value": 2348,
+      "page": null,
+      "raw": null
+    },
+    "products[53].modules.A1A3": {
+      "value": 265,
+      "page": 19,
+      "raw": "0.265"
+    },
+    "products[53].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[53].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[53].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[53].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[53].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[53].split.fossil": {
+      "value": 262,
+      "page": 19,
+      "raw": "262"
+    },
+    "products[53].split.biogenic": {
+      "value": 2.89,
+      "page": 19,
+      "raw": "2.89"
+    },
+    "products[53].split.luluc": {
+      "value": 0.0175,
+      "page": 19,
+      "raw": "0.0175"
+    },
+    "products[54].declared_unit.mass_kg": {
+      "value": 2345,
+      "page": null,
+      "raw": null
+    },
+    "products[54].modules.A1A3": {
+      "value": 360,
+      "page": 19,
+      "raw": "360"
+    },
+    "products[54].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[54].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[54].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[54].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[54].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[54].split.fossil": {
+      "value": 356,
+      "page": 19,
+      "raw": "356"
+    },
+    "products[54].split.biogenic": {
+      "value": 3.52,
+      "page": 19,
+      "raw": "3.52"
+    },
+    "products[54].split.luluc": {
+      "value": 0.0242,
+      "page": 19,
+      "raw": "0.0242"
+    },
+    "products[55].declared_unit.mass_kg": {
+      "value": 2336,
+      "page": null,
+      "raw": null
+    },
+    "products[55].modules.A1A3": {
+      "value": 273,
+      "page": 19,
+      "raw": "273"
+    },
+    "products[55].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[55].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[55].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[55].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[55].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[55].split.fossil": {
+      "value": 270,
+      "page": 19,
+      "raw": "270"
+    },
+    "products[55].split.biogenic": {
+      "value": 2.87,
+      "page": 19,
+      "raw": "2.87"
+    },
+    "products[55].split.luluc": {
+      "value": 0.0196,
+      "page": 19,
+      "raw": "1.96E-04"
+    },
+    "products[56].declared_unit.mass_kg": {
+      "value": 2250,
+      "page": null,
+      "raw": null
+    },
+    "products[56].modules.A1A3": {
+      "value": 252,
+      "page": 20,
+      "raw": "0.252"
+    },
+    "products[56].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[56].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[56].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[56].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[56].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[56].split.fossil": {
+      "value": 248,
+      "page": 20,
+      "raw": "248"
+    },
+    "products[56].split.biogenic": {
+      "value": 3.61,
+      "page": 20,
+      "raw": "3.61"
+    },
+    "products[56].split.luluc": {
+      "value": 0.0133,
+      "page": 20,
+      "raw": "0.0133"
+    },
+    "products[57].declared_unit.mass_kg": {
+      "value": 2250,
+      "page": null,
+      "raw": null
+    },
+    "products[57].modules.A1A3": {
+      "value": 253,
+      "page": 20,
+      "raw": "253"
+    },
+    "products[57].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[57].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[57].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[57].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[57].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[57].split.fossil": {
+      "value": 250,
+      "page": 20,
+      "raw": "2.50"
+    },
+    "products[57].split.biogenic": {
+      "value": 3.63,
+      "page": 20,
+      "raw": "3.63"
+    },
+    "products[57].split.luluc": {
+      "value": 0.0133,
+      "page": 20,
+      "raw": "0.0133"
+    },
+    "products[58].declared_unit.mass_kg": {
+      "value": 2410,
+      "page": null,
+      "raw": null
+    },
+    "products[58].modules.A1A3": {
+      "value": 294,
+      "page": 20,
+      "raw": "294"
+    },
+    "products[58].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[58].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[58].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[58].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[58].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[58].split.fossil": {
+      "value": 290,
+      "page": 20,
+      "raw": "0.290"
+    },
+    "products[58].split.biogenic": {
+      "value": 4.44,
+      "page": 20,
+      "raw": "4.44"
+    },
+    "products[58].split.luluc": {
+      "value": 0.0136,
+      "page": 20,
+      "raw": "0.0136"
+    },
+    "products[59].declared_unit.mass_kg": {
+      "value": 2580,
+      "page": null,
+      "raw": null
+    },
+    "products[59].modules.A1A3": {
+      "value": 297,
+      "page": 20,
+      "raw": "297"
+    },
+    "products[59].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[59].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[59].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[59].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[59].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[59].split.fossil": {
+      "value": 294,
+      "page": 20,
+      "raw": "294"
+    },
+    "products[59].split.biogenic": {
+      "value": 2.67,
+      "page": 20,
+      "raw": "2.67"
+    },
+    "products[59].split.luluc": {
+      "value": 0.0217,
+      "page": 20,
+      "raw": "2.17E-04"
+    },
+    "products[60].declared_unit.mass_kg": {
+      "value": 2390,
+      "page": null,
+      "raw": null
+    },
+    "products[60].modules.A1A3": {
+      "value": 306,
+      "page": 20,
+      "raw": "306"
+    },
+    "products[60].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[60].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[60].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[60].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[60].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[60].split.fossil": {
+      "value": 301,
+      "page": 20,
+      "raw": "301"
+    },
+    "products[60].split.biogenic": {
+      "value": 4.51,
+      "page": 20,
+      "raw": "4.51"
+    },
+    "products[60].split.luluc": {
+      "value": 0.0139,
+      "page": 20,
+      "raw": "0.0139"
+    },
+    "products[61].declared_unit.mass_kg": {
+      "value": 2300,
+      "page": null,
+      "raw": null
+    },
+    "products[61].modules.A1A3": {
+      "value": 292,
+      "page": 20,
+      "raw": "292"
+    },
+    "products[61].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[61].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[61].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[61].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[61].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[61].split.fossil": {
+      "value": 288,
+      "page": 20,
+      "raw": "288"
+    },
+    "products[61].split.biogenic": {
+      "value": 4.18,
+      "page": 20,
+      "raw": "4.18"
+    },
+    "products[61].split.luluc": {
+      "value": 0.0157,
+      "page": 20,
+      "raw": "0.0157"
+    },
+    "products[62].declared_unit.mass_kg": {
+      "value": 2310,
+      "page": null,
+      "raw": null
+    },
+    "products[62].modules.A1A3": {
+      "value": 288,
+      "page": 20,
+      "raw": "288"
+    },
+    "products[62].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[62].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[62].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[62].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[62].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[62].split.fossil": {
+      "value": 284,
+      "page": 20,
+      "raw": "284"
+    },
+    "products[62].split.biogenic": {
+      "value": 4.31,
+      "page": 20,
+      "raw": "4.31"
+    },
+    "products[62].split.luluc": {
+      "value": 0.0135,
+      "page": 20,
+      "raw": "0.0135"
+    },
+    "products[63].declared_unit.mass_kg": {
+      "value": 2410,
+      "page": null,
+      "raw": null
+    },
+    "products[63].modules.A1A3": {
+      "value": 245,
+      "page": 20,
+      "raw": "245"
+    },
+    "products[63].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[63].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[63].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[63].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[63].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[63].split.fossil": {
+      "value": 242,
+      "page": 20,
+      "raw": "242"
+    },
+    "products[63].split.biogenic": {
+      "value": 2.31,
+      "page": 20,
+      "raw": "2.31"
+    },
+    "products[63].split.luluc": {
+      "value": 0.0185,
+      "page": 20,
+      "raw": "0.0185"
+    },
+    "products[64].declared_unit.mass_kg": {
+      "value": 2400,
+      "page": null,
+      "raw": null
+    },
+    "products[64].modules.A1A3": {
+      "value": 307,
+      "page": 20,
+      "raw": "307"
+    },
+    "products[64].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[64].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[64].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[64].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[64].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[64].split.fossil": {
+      "value": 304,
+      "page": 20,
+      "raw": "304"
+    },
+    "products[64].split.biogenic": {
+      "value": 2.8,
+      "page": 20,
+      "raw": "2.80"
+    },
+    "products[64].split.luluc": {
+      "value": 0.0203,
+      "page": 20,
+      "raw": "0.0203"
+    },
+    "products[65].declared_unit.mass_kg": {
+      "value": 2480,
+      "page": null,
+      "raw": null
+    },
+    "products[65].modules.A1A3": {
+      "value": 257,
+      "page": 20,
+      "raw": "257"
+    },
+    "products[65].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[65].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[65].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[65].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[65].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[65].split.fossil": {
+      "value": 255,
+      "page": 20,
+      "raw": "255"
+    },
+    "products[65].split.biogenic": {
+      "value": 2.4,
+      "page": 20,
+      "raw": "2.40"
+    },
+    "products[65].split.luluc": {
+      "value": 0.0204,
+      "page": 20,
+      "raw": "0.0204"
+    },
+    "products[66].declared_unit.mass_kg": {
+      "value": 2350,
+      "page": null,
+      "raw": null
+    },
+    "products[66].modules.A1A3": {
+      "value": 326,
+      "page": 20,
+      "raw": "326"
+    },
+    "products[66].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[66].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[66].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[66].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[66].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[66].split.fossil": {
+      "value": 322,
+      "page": 20,
+      "raw": "322"
+    },
+    "products[66].split.biogenic": {
+      "value": 4.5,
+      "page": 20,
+      "raw": "4.50"
+    },
+    "products[66].split.luluc": {
+      "value": 0.0192,
+      "page": 20,
+      "raw": "0.0192"
+    },
+    "products[67].declared_unit.mass_kg": {
+      "value": 2500,
+      "page": null,
+      "raw": null
+    },
+    "products[67].modules.A1A3": {
+      "value": 282,
+      "page": 20,
+      "raw": "282"
+    },
+    "products[67].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[67].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[67].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[67].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[67].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[67].split.fossil": {
+      "value": 279,
+      "page": 20,
+      "raw": "279"
+    },
+    "products[67].split.biogenic": {
+      "value": 2.45,
+      "page": 20,
+      "raw": "2.45"
+    },
+    "products[67].split.luluc": {
+      "value": 0.0218,
+      "page": 20,
+      "raw": "0.0218"
+    },
+    "products[68].declared_unit.mass_kg": {
+      "value": 2420,
+      "page": null,
+      "raw": null
+    },
+    "products[68].modules.A1A3": {
+      "value": 339,
+      "page": 20,
+      "raw": "339"
+    },
+    "products[68].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[68].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[68].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[68].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[68].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[68].split.fossil": {
+      "value": 336,
+      "page": 20,
+      "raw": "336"
+    },
+    "products[68].split.biogenic": {
+      "value": 3.02,
+      "page": 20,
+      "raw": "3.02"
+    },
+    "products[68].split.luluc": {
+      "value": 0.0225,
+      "page": 20,
+      "raw": "0.0225"
+    },
+    "products[69].declared_unit.mass_kg": {
+      "value": 2020,
+      "page": 5,
+      "raw": "2020"
+    },
+    "products[69].modules.A1A3": {
+      "value": 88.9,
+      "page": 20,
+      "raw": "88.9"
+    },
+    "products[69].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[69].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[69].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[69].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[69].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[69].split.fossil": {
+      "value": 87.3,
+      "page": 20,
+      "raw": "87.3"
+    },
+    "products[69].split.biogenic": {
+      "value": 1.58,
+      "page": 20,
+      "raw": "1.58"
+    },
+    "products[69].split.luluc": {
+      "value": 0.00407,
+      "page": 20,
+      "raw": "0.00407"
+    },
+    "products[70].declared_unit.mass_kg": {
+      "value": 2000,
+      "page": null,
+      "raw": null
+    },
+    "products[70].modules.A1A3": {
+      "value": 142,
+      "page": 20,
+      "raw": "142"
+    },
+    "products[70].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[70].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[70].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[70].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[70].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[70].split.fossil": {
+      "value": 139,
+      "page": 20,
+      "raw": "139"
+    },
+    "products[70].split.biogenic": {
+      "value": 2.5,
+      "page": 20,
+      "raw": "2.50"
+    },
+    "products[70].split.luluc": {
+      "value": 0.00759,
+      "page": 20,
+      "raw": "0.00759"
+    },
+    "products[71].declared_unit.mass_kg": {
+      "value": 2010,
+      "page": 5,
+      "raw": "2010"
+    },
+    "products[71].modules.A1A3": {
+      "value": 72.7,
+      "page": 20,
+      "raw": "72.7"
+    },
+    "products[71].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[71].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[71].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[71].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[71].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[71].split.fossil": {
+      "value": 71.3,
+      "page": 20,
+      "raw": "71.3"
+    },
+    "products[71].split.biogenic": {
+      "value": 1.37,
+      "page": 20,
+      "raw": "1.37"
+    },
+    "products[71].split.luluc": {
+      "value": 0.00321,
+      "page": 20,
+      "raw": "0.00321"
+    },
+    "products[72].declared_unit.mass_kg": {
+      "value": 2000,
+      "page": null,
+      "raw": null
+    },
+    "products[72].modules.A1A3": {
+      "value": 85.1,
+      "page": 20,
+      "raw": "85.1"
+    },
+    "products[72].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[72].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[72].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[72].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[72].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[72].split.fossil": {
+      "value": 83.6,
+      "page": 20,
+      "raw": "83.6"
+    },
+    "products[72].split.biogenic": {
+      "value": 1.53,
+      "page": 20,
+      "raw": "1.53"
+    },
+    "products[72].split.luluc": {
+      "value": 0.0038,
+      "page": 20,
+      "raw": "0.00380"
+    },
+    "products[73].declared_unit.mass_kg": {
+      "value": 2000,
+      "page": null,
+      "raw": null
+    },
+    "products[73].modules.A1A3": {
+      "value": 97.5,
+      "page": 20,
+      "raw": "97.5"
+    },
+    "products[73].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[73].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[73].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[73].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[73].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[73].split.fossil": {
+      "value": 95.9,
+      "page": 20,
+      "raw": "95.9"
+    },
+    "products[73].split.biogenic": {
+      "value": 1.69,
+      "page": 20,
+      "raw": "1.69"
+    },
+    "products[73].split.luluc": {
+      "value": 0.0044,
+      "page": 20,
+      "raw": "0.00440"
+    },
+    "products[74].declared_unit.mass_kg": {
+      "value": 2000,
+      "page": null,
+      "raw": null
+    },
+    "products[74].modules.A1A3": {
+      "value": 167,
+      "page": 20,
+      "raw": "167"
+    },
+    "products[74].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[74].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[74].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[74].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[74].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[74].split.fossil": {
+      "value": 164,
+      "page": 20,
+      "raw": "164"
+    },
+    "products[74].split.biogenic": {
+      "value": 2.58,
+      "page": 20,
+      "raw": "2.58"
+    },
+    "products[74].split.luluc": {
+      "value": 0.00743,
+      "page": 20,
+      "raw": "0.00743"
+    },
+    "products[75].declared_unit.mass_kg": {
+      "value": 1790,
+      "page": null,
+      "raw": null
+    },
+    "products[75].modules.A1A3": {
+      "value": 167,
+      "page": 20,
+      "raw": "167"
+    },
+    "products[75].modules.C1": {
+      "value": 14.8,
+      "page": 35,
+      "raw": "14.8"
+    },
+    "products[75].modules.C2": {
+      "value": 5.96,
+      "page": 35,
+      "raw": "5.96"
+    },
+    "products[75].modules.C3": {
+      "value": 5.02,
+      "page": 35,
+      "raw": "5.02"
+    },
+    "products[75].modules.C4": {
+      "value": 8.45,
+      "page": 35,
+      "raw": "8.45"
+    },
+    "products[75].modules.D": {
+      "value": -11.6,
+      "page": 19,
+      "raw": "11.6"
+    },
+    "products[75].split.fossil": {
+      "value": 165,
+      "page": 20,
+      "raw": "165"
+    },
+    "products[75].split.biogenic": {
+      "value": 2.64,
+      "page": 20,
+      "raw": "2.64"
+    },
+    "products[75].split.luluc": {
+      "value": 0.00883,
+      "page": 20,
+      "raw": "0.00883"
+    }
+  }
+}

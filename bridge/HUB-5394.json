@@ -1,0 +1,96 @@
+{
+  "epd_id": "HUB-5394",
+  "source_file": "EPD_HUB-5394_2026-06-27_en.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2352,
+      "page": 2,
+      "raw": "2352"
+    },
+    "modules.A1": {
+      "value": 213,
+      "page": 9,
+      "raw": "2,13E+02"
+    },
+    "modules.A2": {
+      "value": 15.9,
+      "page": 9,
+      "raw": "1,59E+01"
+    },
+    "modules.A3": {
+      "value": 3.31,
+      "page": 9,
+      "raw": "3,31E+00"
+    },
+    "modules.A1A3": {
+      "value": 232,
+      "page": 9,
+      "raw": "2,32E+02"
+    },
+    "modules.A4": {
+      "value": 2.79,
+      "page": 9,
+      "raw": "2,79E+00"
+    },
+    "modules.A5": {
+      "value": 15.1,
+      "page": 9,
+      "raw": "1,51E+01"
+    },
+    "modules.C1": {
+      "value": 4.48,
+      "page": 9,
+      "raw": "4,48E+00"
+    },
+    "modules.C2": {
+      "value": 12.7,
+      "page": 9,
+      "raw": "1,27E+01"
+    },
+    "modules.C3": {
+      "value": 7.2,
+      "page": 9,
+      "raw": "7,20E+00"
+    },
+    "modules.C4": {
+      "value": 4.41,
+      "page": 9,
+      "raw": "4,41E+00"
+    },
+    "modules.D": {
+      "value": -13.2,
+      "page": 9,
+      "raw": "‐1,32E+01"
+    },
+    "split.fossil": {
+      "value": 232,
+      "page": 9,
+      "raw": "2,32E+02"
+    },
+    "split.biogenic": {
+      "value": -0.0196,
+      "page": 9,
+      "raw": "‐1,96E‐02"
+    },
+    "split.luluc": {
+      "value": 0.025,
+      "page": 9,
+      "raw": "2,50E‐02"
+    },
+    "alt.value": {
+      "value": 232,
+      "page": 11,
+      "raw": "2,32E+02"
+    },
+    "extras.total_energy_use_kwh_a1a3": {
+      "value": 196,
+      "page": 2,
+      "raw": "196"
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": 0.61,
+      "page": 2,
+      "raw": "6,10E‐01"
+    }
+  }
+}

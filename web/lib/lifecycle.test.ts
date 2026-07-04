@@ -79,4 +79,22 @@ assert.ok(comparability([p({ mpa: 25, isCatalog: true }), p({ mpa: 25 })]).some(
 assert.ok(comparability([p({ mpa: null }), p({ mpa: 25 })]).some((w) => w.text.includes("non-structural")));
 assert.equal(comparability([p({ mpa: 25 })]).length, 0, "single product → no comparability warnings");
 
+// 9b. Test age: a 56-day strength beside a 28-day one is flagged; a shared 28-day age is not;
+//     an unstated age is never assumed to be 28 (no false "all 28" equivalence).
+const withAge = (mpa: number | null, age: number | null) =>
+  p({ mpa, compressive_strength: { raw_class: "", value_mpa: mpa, test_age_days: age, standard: "", source_page: 1 } });
+assert.ok(
+  comparability([withAge(32, 56), withAge(32, 28)]).some((w) => w.text.includes("test age")),
+  "56-day vs 28-day strength must warn — same MPa, not equal strength",
+);
+assert.equal(
+  comparability([withAge(25, 28), withAge(25, 28)]).filter((w) => w.text.includes("test age")).length,
+  0,
+  "both certified at the standard 28 days → no test-age warning",
+);
+assert.ok(
+  comparability([withAge(32, 56), withAge(32, null)]).some((w) => w.text.includes("unstated")),
+  "lone 56-day strength vs an unstated age must warn and name the unstated age",
+);
+
 console.log("lifecycle self-check: all assertions passed ✓");

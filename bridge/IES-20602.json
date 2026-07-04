@@ -1,0 +1,76 @@
+{
+  "epd_id": "IES-20602",
+  "source_file": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+  "figures": {
+    "declared_unit.mass_kg": {
+      "value": 2400,
+      "page": 10,
+      "raw": "2,400"
+    },
+    "modules.A1A3": {
+      "value": 105,
+      "page": 15,
+      "raw": "105"
+    },
+    "modules.A4": {
+      "value": 2.05,
+      "page": 15,
+      "raw": "2.05"
+    },
+    "modules.A5": {
+      "value": 8.81,
+      "page": 15,
+      "raw": "8.81"
+    },
+    "modules.C1": {
+      "value": 0.532,
+      "page": 15,
+      "raw": "0.532"
+    },
+    "modules.C2": {
+      "value": 3.99,
+      "page": 15,
+      "raw": "3.99"
+    },
+    "modules.C3": {
+      "value": 7.61,
+      "page": 15,
+      "raw": "7.61"
+    },
+    "modules.C4": {
+      "value": 1.28,
+      "page": 15,
+      "raw": "1.28"
+    },
+    "modules.D": {
+      "value": -15.7,
+      "page": 15,
+      "raw": "-15.7"
+    },
+    "split.fossil": {
+      "value": 104,
+      "page": 15,
+      "raw": "104"
+    },
+    "split.biogenic": {
+      "value": 0.781,
+      "page": 15,
+      "raw": "0.781"
+    },
+    "split.luluc": {
+      "value": 0.0184,
+      "page": 15,
+      "raw": "0.0184"
+    },
+    "alt.value": {
+      "value": 109,
+      "page": 16,
+      "raw": "109"
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": 0.84,
+      "page": 15,
+      "raw": "0.840"
+    }
+  }
+}

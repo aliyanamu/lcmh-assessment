@@ -1,0 +1,36 @@
+{
+  "epd_id": "IES-0021165",
+  "source_file": "epd-ies-0021165-sn252f100.pdf",
+  "figures": {
+    "modules.A1A3": {
+      "value": 143.83,
+      "page": null,
+      "raw": null
+    },
+    "modules.A4": {
+      "value": 9.64,
+      "page": 34,
+      "raw": "9.64"
+    },
+    "split.fossil": {
+      "value": 143.73,
+      "page": null,
+      "raw": null
+    },
+    "split.biogenic": {
+      "value": 0.113,
+      "page": null,
+      "raw": null
+    },
+    "split.luluc": {
+      "value": 0.0177,
+      "page": null,
+      "raw": null
+    },
+    "extras.net_freshwater_use_m3_a1a3": {
+      "value": -0.0444,
+      "page": null,
+      "raw": null
+    }
+  }
+}
