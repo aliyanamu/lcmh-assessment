@@ -5,10 +5,12 @@ A thin slice of a platform that makes concrete **EPDs** (Environmental Product D
 - **Part 1 — data:** extract 20 concrete EPD PDFs into structured, provenance-traceable JSON.
 - **Part 2 — app:** a Next.js + TypeScript app to compare products by embodied carbon across the life cycle.
 
+**▶ Live app: https://lcmh-assessment-comparison.vercel.app/**
+
 ## Status
 
 - **Part 1 — complete.** 20 EPDs → `data/*.json` (95 products, incl. one 76-mix catalog). See the [review](docs/reviews/2026-07-03-part1-extraction-review.md): hard rule holds, 0 wrong numbers.
-- **Part 2 — built.** Next.js + TypeScript app in [`web/`](web): browse, per-product detail, and stage-by-stage compare, with a clickable source link on every figure. See the [Part 2 review](docs/reviews/2026-07-03-part2-app-review.md). Vercel deploy pending.
+- **Part 2 — built.** Next.js + TypeScript app in [`web/`](web): browse, per-product detail, and stage-by-stage compare, with a clickable source link on every figure. See the [Part 2 review](docs/reviews/2026-07-03-part2-app-review.md). Deployed: **[live app ↗](https://lcmh-assessment-comparison.vercel.app/)**.
 
 ## The one hard rule
 
@@ -136,4 +138,4 @@ The app is in `web/` but reads `../data` and `../source-pdfs` at the repo root, 
 - **Root Directory** = `web`
 - **Include files outside the Root Directory in the Build Step** = **ON** (Vercel default) — makes `../data` (build-time imports) and `../source-pdfs` (copied into `public/`) available at build.
 
-Framework preset = Next.js (auto-detected), no environment variables. The live link goes here once deployed.
+Framework preset = Next.js (auto-detected), no environment variables. Live: **https://lcmh-assessment-comparison.vercel.app/**

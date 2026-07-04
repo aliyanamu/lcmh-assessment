@@ -96,5 +96,15 @@ assert.ok(
   comparability([withAge(32, 56), withAge(32, null)]).some((w) => w.text.includes("unstated")),
   "lone 56-day strength vs an unstated age must warn and name the unstated age",
 );
+// Both certified at the SAME non-standard 56-day age → flag the non-standard age, never call it a "difference".
+assert.ok(
+  comparability([withAge(32, 56), withAge(32, 56)]).some((w) => w.text.includes("not the standard 28")),
+  "shared 56-day age must warn that it isn't the 28-day grade",
+);
+assert.equal(
+  comparability([withAge(32, 56), withAge(32, 56)]).filter((w) => w.text.includes("different test ages")).length,
+  0,
+  "a shared age is not 'different test ages'",
+);
 
 console.log("lifecycle self-check: all assertions passed ✓");

@@ -146,14 +146,21 @@ export function comparability(products: Product[]): Warning[] {
     .filter((p) => p.mpa != null) // only structural products carry a meaningful strength/age
     .map((p) => p.compressive_strength?.test_age_days ?? null);
   const knownAges = [...new Set(ages.filter((a): a is number => a != null))].sort((a, b) => a - b);
-  if (knownAges.some((a) => a !== 28) || knownAges.length > 1) {
+  const someUnstated = ages.some((a) => a == null);
+  // Two distinct honesty problems, not one: ages that *differ* between products (not like-for-like),
+  // vs. a single age shared by all products that isn't the standard 28 days (comparable to each other,
+  // but the MPa isn't the 28-day grade). Both worth flagging; the message must not conflate them.
+  const agesDiffer = knownAges.length > 1 || (knownAges.length >= 1 && someUnstated);
+  const sharedNonStandard = knownAges.length === 1 && knownAges[0] !== 28 && !someUnstated;
+  if (agesDiffer || sharedNonStandard) {
     const shown = knownAges.map((a) => `${a} d`).join(", ");
-    const someUnstated = ages.some((a) => a == null);
     w.push({
       level: "warn",
-      text: `Compressive strengths are certified at different test ages (${shown}${
-        someUnstated ? ", plus some unstated" : ""
-      }). A strength measured at a later age (e.g. 56 days) isn't equal to the same MPa at the standard 28 days, and an unstated age is never assumed to be 28.`,
+      text: agesDiffer
+        ? `Compressive strengths are certified at different test ages (${shown}${
+            someUnstated ? ", plus some unstated" : ""
+          }) — not like-for-like. A strength measured at a later age (e.g. 56 days) isn't equal to the same MPa at the standard 28 days, and an unstated age is never assumed to be 28.`
+        : `Compressive strengths are certified at ${shown}, not the standard 28 days — the MPa isn't directly the 28-day value used to grade most concrete.`,
     });
   }
 
